@@ -2,47 +2,66 @@
 
 @section('content')
 
+<div class="container-fluid">
+    <div class="card-body">
+        <div class="justify-content-between d-flex align-items-center mb-4"></div>
 
-    <div class="container-fluid">
-
-        <div class="card-body">
-            <div class="justify-content-between d-flex align-items-center mb-4">
-            </div>
-            <div id="carouselExampleFade" class="carousel slide carousel-fade"
-                data-bs-ride="carousel">
-                <ol class="carousel-indicators list-unstyled">
-                    <li data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active">
-                    </li>
-                    <li data-bs-target="#carouselExampleFade" data-bs-slide-to="1"></li>
-                    <li data-bs-target="#carouselExampleFade" data-bs-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" id="banner1">
-                        
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block img-fluid mx-auto" src="{{ asset('assets/images/photo_banner5.jpeg') }}"
-                            alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block img-fluid mx-auto" src="{{ asset('assets/images/photo_banner7.jpeg') }}"
-                            alt="Third slide">
-                    </div>
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner6.jpeg') }}');">
+                    <div class="vertical-bar"></div>
+                    {{-- <div class="text-box">
+                        <p>Texte pour le premier slide</p>
+                    </div> --}}
                 </div>
-                {{-- <a class="carousel-control-prev" href="#carouselExampleFade" role="button"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleFade" role="button"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a> --}}
-            </div>
-        </div> <!-- end card body -->
-    </div> <!-- end card -->
 
-<!-- end col -->
-    
+                <!-- Slide 2 -->
+                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner7.jpeg') }}');">
+                    <div class="vertical-bar"></div>
+                    
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner8.jpeg') }}');">
+                    <div class="vertical-bar"></div>
+                   
+                </div>
+            </div>
+            <!-- Boutons de navigation -->
+            {{-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> --}}
+            <!-- Pagination -->
+            {{-- <div class="swiper-pagination"></div> --}}
+        </div>
+    </div> 
+</div> 
+
+<!-- Initialisation de Swiper -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var swiper = new Swiper(".swiper-container", {
+            effect: "fade",
+            loop: true,
+            speed: 1500, // Augmente la durée de transition (en ms)
+            fadeEffect: {
+            crossFade: true // Rend la transition plus fluide
+        },
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            }
+        });
+    });
+</script>
+
 @endsection

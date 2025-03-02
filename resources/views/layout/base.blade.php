@@ -10,11 +10,18 @@
   <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
   <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
   <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" id="bootstrap-style" rel="stylesheet">
   
   <!-- Main CSS File -->
   <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
   <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+
+  {{-- swiper css --}}
+  <head>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
 
     <title>UNIPOD-TOGO</title>
 </head>
@@ -47,6 +54,9 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  {{-- swiper js --}}
+
 
 </body>
 </html>

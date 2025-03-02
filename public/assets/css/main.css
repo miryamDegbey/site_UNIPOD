@@ -11,6 +11,7 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --heading-font: "Raleway",  sans-serif;
@@ -35,6 +36,7 @@
     --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
     --nav-dropdown-color: #5f687b; /* Used for navigation links of the dropdown items in the navigation menu. */
     --nav-dropdown-hover-color: #10bc69; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+    
   }
   
   /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -71,7 +73,7 @@
   body {
     color: var(--default-color);
     background-color: var(--background-color);
-    font-family: var(--default-font);
+    font-family: 'Montserrat', sans-serif;
   }
   
   a {
@@ -92,7 +94,7 @@
   h5,
   h6 {
     color: var(--heading-color);
-    font-family: var(--heading-font);
+    font-family: 'Montserrat', sans-serif;
   }
   
   /* PHP Email Form Messages
@@ -316,7 +318,7 @@
       color: var(--nav-color);
       padding: 18px 15px;
       font-size: 16px;
-      font-family: var(--nav-font);
+      font-family: 'Montserrat', sans-serif;
       font-weight: 400;
       display: flex;
       align-items: center;
@@ -334,14 +336,23 @@
     }
   
     .navmenu li:last-child a {
-      padding-right: 0;
+      /* padding-right: 0; */
+    }
+
+    .navmenu a:hover{
+      padding: 8px 25px;
+      /* font-weight: bold; */
+      color: white;
+      background-color: var(--accent-color);
+      border-radius: 5px;
+      margin-right: 5px;
     }
   
-    .navmenu li:hover>a,
+    /* .navmenu li:hover>a,
     .navmenu .active,
     .navmenu .active:focus {
       color: var(--nav-hover-color);
-    }
+    } */
   
     .navmenu .dropdown ul {
       margin: 0;
@@ -435,7 +446,7 @@
     .navmenu a:focus {
       color: var(--nav-dropdown-color);
       padding: 10px 20px;
-      font-family: var(--nav-font);
+      font-family: 'Montserrat', sans-serif;
       font-size: 17px;
       font-weight: 500;
       display: flex;
@@ -662,7 +673,7 @@
     color: var(--heading-color);
     font-size: 24px;
     font-weight: 600;
-    font-family: var(--heading-font);
+    font-family: 'Montserrat', sans-serif;
   }
   
   .footer .footer-contact p {
@@ -897,7 +908,7 @@
   .hero .btn-get-started {
     color: var(--contrast-color);
     background: var(--accent-color);
-    font-family: var(--heading-font);
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 15px;
     letter-spacing: 1px;
@@ -1078,7 +1089,7 @@
     color: color-mix(in srgb, var(--default-color), transparent 40%);
     padding: 0;
     margin: 0;
-    font-family: var(--heading-font);
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 600;
   }
@@ -1364,7 +1375,7 @@
   }
   
   .call-to-action .cta-btn {
-    font-family: var(--heading-font);
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
