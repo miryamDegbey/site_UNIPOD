@@ -11,22 +11,33 @@
 }
 
 .content {
-    /* display: flex; */
-    /* align-items: center; */
-    gap: 15px; /* Espacement entre la barre et le texte */
-    background: red; /* Fond semi-transparent pour améliorer la lisibilité */
-    color: white; /* Texte blanc */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(125, 215, 255, 0.45); 
+    /* border: 8px solid rgba(214, 20, 20, 0.5); */
+    color: white;
     padding: 20px;
-    border-radius: 5px;
-    /* clip-path: polygon(0 24%, 53% 24%, 78% 50%, 53% 76%, 0 75%);  */
+    /* border-radius: 5px; */
     clip-path: polygon(0 10%, 73% 10%, 100% 50%, 74% 88%, 0 87%);
     height: 100% ;
-    width: 70%;  /* Définit une largeur raisonnable */
-    max-width: 700px;
+    width: 60%;  /* Définit une largeur raisonnable */
+    max-width: 100%;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%); /* Centre verticalement */
-    z-index: 2; /* S'assure que le contenu passe au-dessus de la barre */
+    transform: translateY(-50%); 
+    z-index: 2;
+}
+
+.text-box {
+    /* z-index: 88; */
+    color: white; /* Assurer que le texte est visible */
+    font-size: 27px; /* Ajuste la taille du texte */
+    line-height: 1.5; 
+    height: auto;
+    /* font-weight: bold; */
 }
 
 .vertical-bar {
