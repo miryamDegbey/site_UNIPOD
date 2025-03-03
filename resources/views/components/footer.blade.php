@@ -34,10 +34,10 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Accueil</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">A propos</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Accompagnement</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Espaces</a></li>
           </ul>
         </div>
 
@@ -65,7 +65,7 @@
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
+    {{-- <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">eNno</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -74,6 +74,6 @@
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
       </div>
-    </div>
+    </div> --}}
 
   </footer>
