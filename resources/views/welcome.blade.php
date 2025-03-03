@@ -9,11 +9,18 @@
         <!-- Swiper -->
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner6.jpeg') }}');">
+                {{-- <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner6.jpeg') }}');">
                     <div class="vertical-bar"></div>
-                    {{-- <div class="text-box">
+                    <div class="text-box">
                         <p>Texte pour le premier slide</p>
-                    </div> --}}
+                    </div>
+                </div> --}}
+
+                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner6.jpeg') }}');">
+                    <div class="content">
+                        <div class="vertical-bar"></div>
+                        <p>Texte pour le premier slide</p>
+                    </div>
                 </div>
 
                 <!-- Slide 2 -->

@@ -10,12 +10,31 @@
     background-position: center;
 }
 
+.content {
+    /* display: flex; */
+    /* align-items: center; */
+    gap: 15px; /* Espacement entre la barre et le texte */
+    background: red; /* Fond semi-transparent pour améliorer la lisibilité */
+    color: white; /* Texte blanc */
+    padding: 20px;
+    border-radius: 5px;
+    /* clip-path: polygon(0 24%, 53% 24%, 78% 50%, 53% 76%, 0 75%);  */
+    clip-path: polygon(0 10%, 73% 10%, 100% 50%, 74% 88%, 0 87%);
+    height: 100% ;
+    width: 70%;  /* Définit une largeur raisonnable */
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Centre verticalement */
+    z-index: 2; /* S'assure que le contenu passe au-dessus de la barre */
+}
+
 .vertical-bar {
     width: 5px;
-    height: 80%; /* La barre occupe presque toute la hauteur du slide */
+    height: 50%; /* La barre occupe presque toute la hauteur du slide */
     background-color: #FFD700; /* Couleur dorée */
     margin-right: 15px;
     position: absolute;
-    top: 10%; /* Positionne la barre légèrement vers le haut */
-    left: 10%;
+    top: 20%; /* Positionne la barre légèrement vers le haut */
+    left: 15%;
 }
