@@ -112,6 +112,7 @@
   .php-email-form .sent-message {
     display: none;
     color: #ffffff;
+
     background: #059652;
     text-align: center;
     padding: 15px;
@@ -985,35 +986,45 @@
   # Featured Services Section
   --------------------------------------------------------------*/
   .featured-services {
-    --surface-color: color-mix(in srgb, var(--default-color), transparent 96%);
-    padding-top: 0;
+    --surface-color: color-mix(in srgb, var(#ffffff), transparent 70%);
+    padding-top: 70px;
+   
   }
   
   .featured-services .service-item {
     background-color: var(--surface-color);
-    padding: 50px 30px;
+    padding: 20px 20px;
     transition: all ease-in-out 0.4s;
     height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    text-align: center;
+    place-items: center;
+    
+    
+    
+    
   }
+
   
   .featured-services .service-item .icon {
     margin-bottom: 10px;
+
   }
   
-  .featured-services .service-item .icon i {
+  /* .featured-services .service-item .icon i {
     color: var(--accent-color);
     font-size: 36px;
     transition: 0.3s;
-  }
+  } */
   
   .featured-services .service-item h4 {
     font-weight: 700;
-    margin-bottom: 15px;
-    font-size: 20px;
+    margin-bottom:0;
+    font-size: 15px;
   }
   
   .featured-services .service-item h4 a {
-    color: var(--heading-color);
+    color: #5F687B;
     transition: ease-in-out 0.3s;
   }
   
@@ -1025,10 +1036,12 @@
   
   .featured-services .service-item:hover {
     transform: translateY(-10px);
+    color: #1D9ED9;
+    border: 4px solid var(--primary-color);
   }
   
   .featured-services .service-item:hover h4 a {
-    color: var(--accent-color);
+    color: var(--primary-color);
   }
   
   /*--------------------------------------------------------------
@@ -1139,7 +1152,7 @@
   }
   
   .services .service-item:hover {
-    border-color: var(--accent-color);
+    border-color: var(--primary-color);
   }
   
   .services .service-item:hover h3 {
@@ -1762,6 +1775,8 @@
   /*--------------------------------------------------------------
   # Starter Section Section
   --------------------------------------------------------------*/
-  .starter-section {
-    /* Add your styles here */
+.none {
+  border: 2px solid #FFDC15;
+  padding: 50px 50px 50px;
+
   }

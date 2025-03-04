@@ -66,25 +66,27 @@
 
         <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
           <div class="service-item position-relative">
-            <div class="icon"><i class="bi bi-activity icon"></i></div>
+            <div class="icon"><img src="{{  asset('assets/images/icon1.png')}}" alt="" width="20%"></div>
             <h4><a href="" class="stretched-link">Formation et Mentorat</a></h4>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            
           </div>
         </div><!-- End Service Item -->
 
         <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
           <div class="service-item position-relative">
-            <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
-            <h4><a href="" class="stretched-link">Recherche et Développement</a></h4>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          
+            <div class="icon"><img src="{{  asset('assets/images/icon2.png')}}" alt="" width="20%"></div>
+            <h4><a href="" class="stretched-link">Recherche et développement</a></h4>
+            
           </div>
         </div><!-- End Service Item -->
 
         <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
           <div class="service-item position-relative">
-            <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
-            <h4><a href="" class="stretched-link">Développement de produits et propriété intellectuelle</a></h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            
+            <div class="icon"><img src="{{  asset('assets/images/icon3.png')}}" alt="" width="20%"></div>
+            <h4><a href="" class="stretched-link">Développement de produits et proprieté intellectuelle</a></h4>
+            
           </div>
         </div><!-- End Service Item -->
 
@@ -107,32 +109,38 @@
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-      <span>About Us<br></span>
-      <h2>About</h2>
-      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <span>Qui sommes-nous?<br></span>
+      <h2>Qui sommes-nous?</h2>
+      <p> Le Pole Universitaire d'Innovation et de Technologie</p>
     </div><!-- End Section Title -->
 
     <div class="container">
 
-      <div class="row gy-4">
+      <div class="row gy-6">
         <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-          <img src="{{ asset('assets/images/photo_propos.png') }}" class="img-fluid" alt="">
+          <img src="{{ asset('assets/images/photo_propos.png') }}" class="img-fluid" alt="" width="90%">
         </div>
         <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
-          <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-          <p class="fst-italic">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.
-          </p>
-          <ul>
-            <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-            <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-            <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
-          </ul>
-          <p>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-          </p>
+
+          <div class="none">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+            </p>
+           
+            <ul>
+              <li><i class="bi bi-check2-square"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+              <li><i class="bi bi-check2-square"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+              <li><i class="bi bi-check2-square"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+            </ul>
+          </div>
+          
+          
+          
         </div>
       </div>
 

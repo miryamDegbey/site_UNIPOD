@@ -21,7 +21,7 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="d-flex align-items-center">
-            <span class="sitename">eNno</span>
+            <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" width="30%">
           </a>
           <div class="footer-contact pt-3">
             <p>A108 Adam Street</p>
@@ -32,7 +32,7 @@
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
+          <h4>Liens utiles</h4>
           <ul>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Accueil</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">A propos</a></li>
@@ -42,9 +42,9 @@
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
+          <h4>Nos Partenaires</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Formation et Mentorat</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
