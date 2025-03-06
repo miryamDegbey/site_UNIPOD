@@ -9,6 +9,12 @@
     <!-- Starter Section Section -->
     <section id="starter-section" class="starter-section section">
 
+      <style>
+        #starter-section {
+            background-image: url('{{ asset('assets/images/photo_about.png') }}');
+            background-size: cover;
+        }
+    </style>
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <span> Contactez-nous</span>
@@ -16,7 +22,12 @@
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
-      <div class="container mt-5">
+     
+    
+
+
+    </section><!-- /Starter Section Section -->
+ <div class="container mt-5">
         <div class="row g-4">
             <!-- Carte d'information -->
             <div class="col-lg-4">
@@ -48,7 +59,7 @@
             <div class="col-lg-8">
                 <iframe class="w-100 rounded-lg shadow" 
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1238.5654506345043!2d35.026682775889455!3d-15.801852433752297!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18d845928be10705%3A0xedbb7089654e143b!2sMalawi%20University%20Of%20Business%20And%20Applied%20Science!5e0!3m2!1sen!2smw!4v1701282260661!5m2!1sen!2smw" 
-                    height="350" 
+                    height="450" 
                     style="border:0;" 
                     loading="lazy" 
                     referrerpolicy="no-referrer-when-downgrade">
@@ -56,11 +67,6 @@
             </div>
         </div>
     </div>
-    
-
-
-    </section><!-- /Starter Section Section -->
-
   </main>
     
 @endsection
