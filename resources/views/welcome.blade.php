@@ -49,7 +49,6 @@
     </div> 
 </div> 
 
-
 <section id="featured-services" class="featured-services section">
     <div class="container">
       
@@ -107,77 +106,8 @@
     </div>
 </section>
 
-
-
-
-
-
-<script>
-// Swiper initialization
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    loop: true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    breakpoints: {
-        768: { slidesPerView: 2 },
-        1024: { slidesPerView: 3 },
-        1200: { slidesPerView: 4 }
-    }
-});
-
-// Toggle dropdown content
-function toggleDropdown(id) {
-    $(".dropdown-content").not("#" + id).slideUp(); // Ferme les autres dropdowns
-    $("#" + id).slideToggle(); // Ouvre ou ferme l'élément cliqué
-}
-</script>
-
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-<script>
-    document.querySelectorAll(".service-toggle").forEach(item => {
-        item.addEventListener("click", function(event) {
-            event.preventDefault();
-            let target = this.getAttribute("data-target");
-            let dropdown = document.getElementById(target);
-            
-            // Fermer les autres dropdowns
-            document.querySelectorAll(".dropdown-content").forEach(d => {
-                if (d.id !== target) {
-                    d.classList.remove("active");
-                }
-            });
-
-            // Toggle l'affichage du dropdown sélectionné
-            dropdown.classList.toggle("active");
-        });
-    });
-</script>
-
-<!-- Styles pour le dropdown -->
-
-    
-
-
-<script>
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3, // Affiche 3 services à la fois
-        spaceBetween: 30, // Espace entre les services
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        loop: true, // Active le défilement infini
-    });
-</script>
-
-
-
 
   <section id="about" class="about section">
 
@@ -222,44 +152,98 @@ function toggleDropdown(id) {
 
   </section>
 
-  <section class="project-section">
-  
-
-    <div class="project-item">
-        <img src="{{ asset('assets/images/woman.jpg') }}" alt="" width="100%">
-        <p style="margin-left: 30px; text-align : right"> Lorem ipsum dolor sit amet consectetur.</p>
-        <a style="float: right" class="btn btn-primary" href="#">Lire plus</a>
+  <section class="project-section container py-5">
+    <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+                <img src="{{ asset('assets/images/woman.jpg') }}" class="card-img-top img-fluid" alt="Projet">
+                <div class="card-body text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a class="btn btn-primary" href="#">Lire plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+                <img src="{{ asset('assets/images/woman.jpg') }}" class="card-img-top img-fluid" alt="Projet">
+                <div class="card-body text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a class="btn btn-primary" href="#">Lire plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+                <img src="{{ asset('assets/images/woman.jpg') }}" class="card-img-top img-fluid" alt="Projet">
+                <div class="card-body text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a class="btn btn-primary" href="#">Lire plus</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+                <img src="{{ asset('assets/images/woman.jpg') }}" class="card-img-top img-fluid" alt="Projet">
+                <div class="card-body text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <a class="btn btn-primary" href="#">Lire plus</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="project-item">
-        <img src="{{ asset('assets/images/woman.jpg') }}" alt="" width="100%">
-        <p style="margin-left: 30px; text-align : right"> Lorem ipsum dolor sit amet consectetur.</p>
-        <a style="float: right" class="btn btn-primary" href="#">Lire plus</a>
+</section>
+
+  <section class="partner-section swiper2">
+
+    <style>
+.partner-section {
+    width: 100%;
+    overflow: hidden;
+}
+
+.partner-section .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    max-width: 150px; /* Ajuste la taille des images */
+    height: auto;
+}
+
+.partner-section .swiper-slide{
+    box-shadow: none;
+}
+    </style>
+    
+    <div class="swiper-wrapper" class="d-flex justify-content-center align-items-center">
+        <div class="swiper-slide"><img src="{{ asset('assets/images/ul.jpeg') }}" alt="Université de Lomé"></div>
+        <div class="swiper-slide"><img src="{{ asset('assets/images/pnud-logo.jpg') }}" alt="Logo du PNUD"></div>
+        <div class="swiper-slide"><img src="{{ asset('assets/images/cervida.jpeg') }}" alt="Logo de Cervida"></div>
+        <div class="swiper-slide"><img src="{{ asset('assets/images/impact.jpeg') }}" alt="Logo de Impact"></div>
     </div>
-    <div class="project-item">
-        <img src="{{ asset('assets/images/woman.jpg') }}" alt="" width="100%">
-        <p style="margin-left: 30px; text-align : right"> Lorem ipsum dolor sit amet consectetur.</p>
-        <a style="float: right" class="btn btn-primary" href="#">Lire plus</a>
-    </div>
-    <div class="project-item">
-        <img src="{{ asset('assets/images/woman.jpg') }}" alt="" width="100%">
-        <p style="margin-left: 30px; text-align : right"> Lorem ipsum dolor sit amet consectetur.</p>
-        <a style="float: right" class="btn btn-primary" href="#">Lire plus</a>
-    </div>
-
-  </section>
+</section>
 
 
-  <section class="partner-section">
- 
-        <img src="{{ asset('assets/images/ul.jpeg') }}" alt="">
-        <img src="{{ asset('assets/images/pnud-logo.jpg') }}" alt="">
-        <img src="{{ asset('assets/images/cervida.jpeg') }}" alt="">
-        <img src="{{ asset('assets/images/impact.jpeg') }}" alt="">
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        new Swiper(".swiper2", {
+            slidesPerView: "3", 
+            spaceBetween: 10,
+            loop: true,
+            autoplay: {
+                delay: 2000, // 2 secondes entre chaque défilement
+                disableOnInteraction: false,
+            },
+            speed: 1000, // Vitesse de transition
+        });
+    });
+</script>
 
-  </section>
 
 <!-- Initialisation de Swiper -->
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+{{-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> --}}
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         var swiper = new Swiper(".swiper-container", {
@@ -284,8 +268,80 @@ function toggleDropdown(id) {
         });
     });
 </script>
+
+<script>
+// Swiper initialization
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+        1200: { slidesPerView: 4 }
+    }
+});
+
+// Toggle dropdown content
+function toggleDropdown(id) {
+    $(".dropdown-content").not("#" + id).slideUp(); // Ferme les autres dropdowns
+    $("#" + id).slideToggle(); // Ouvre ou ferme l'élément cliqué
+}
+</script>
+
+<script>
+    document.querySelectorAll(".service-toggle").forEach(item => {
+        item.addEventListener("click", function(event) {
+            event.preventDefault();
+            let target = this.getAttribute("data-target");
+            let dropdown = document.getElementById(target);
+            
+            // Fermer les autres dropdowns
+            document.querySelectorAll(".dropdown-content").forEach(d => {
+                if (d.id !== target) {
+                    d.classList.remove("active");
+                }
+            });
+
+            // Toggle l'affichage du dropdown sélectionné
+            dropdown.classList.toggle("active");
+        });
+    });
+</script>
+
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3, // Affiche 3 services à la fois
+        spaceBetween: 30, // Espace entre les services
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        loop: true, // Active le défilement infini
+    });
+</script>
 <footer id="footer" class="footer">
 <div class="footer-newsletter">
+
+<style>
+    .footer-newsletter {
+        background-image: url('{{ asset('assets/images/istockphoto-635889854-1024x1024.jpg') }}');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        /* padding: 60px 0;
+        text-align: center;
+         */
+    }
+</style>
+
+
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-lg-6">
