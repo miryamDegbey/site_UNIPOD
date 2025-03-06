@@ -4,7 +4,12 @@
 
 <main class="main">
 
-    
+  <style>
+    #starter-section {
+        background-image: url('{{ asset('assets/images/photo_about.png') }}');
+        background-size: cover;
+    }
+</style>
 
     <!-- Starter Section Section -->
     <section id="starter-section" class="starter-section section">
