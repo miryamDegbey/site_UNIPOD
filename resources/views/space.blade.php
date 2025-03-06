@@ -35,7 +35,7 @@
                 </svg>
                 <i class="bi bi-activity"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="" class="stretched-link">
                 <h3>Nesciunt Mete</h3>
               </a>
               <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>

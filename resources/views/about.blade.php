@@ -14,11 +14,13 @@
                 #starter-section {
                     background-image: url('{{ asset('assets/images/photo_about.png') }}');
                     background-size: cover;
+                    color: #FFFFFF;
+                
                 }
             </style>
             <div class="container section-title" data-aos="fade-up">
                 {{-- <img src="{{ asset('assets/images/photo_about.png') }}" alt=""> --}}
-                <span>A Propos De Nous </span>
+        
                 <h2> Propos De Nous</h2>
                 <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
             </div><!-- End Section Title -->

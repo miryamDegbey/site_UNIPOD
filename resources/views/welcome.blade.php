@@ -25,9 +25,9 @@
                     <div class="contenu">
                         <div class="vertical-bar"></div>
                         <div>
-                            <p class="text-box">Lorem ipsum, dolor sit amet consectetur.</p>
-                            <p class="text-box">Lorem ipsum dolor sit amet .</p>
-                            <p class="text-box">Lorem ipsum dolor sit.</p>
+                            <p class="text-box">Du campus aux perspectives futures,</p>
+                            <p class="text-box">UniPod Togo dévoile les talents émergents</p>
+                            <p class="text-box">pour façonner un avenir prometteur !</p>
                         </div>
                     </div>
                 </div>
@@ -37,9 +37,9 @@
                     <div class="contenu">
                         <div class="vertical-bar"></div>
                         <div>
-                            <p class="text-box">Lorem ipsum, dolor sit amet consectetur.</p>
-                            <p class="text-box">Lorem ipsum dolor sit amet .</p>
-                            <p class="text-box">Lorem ipsum dolor sit.</p>
+                            <p class="text-box">UniPod Togo, catalyseur de transformation :</p>
+                            <p class="text-box">vos idées se convertissent en projets d'impact</p>
+                            <p class="text-box">réinventent notre futur !</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                     <div class="service-item position-relative">
                         <div class="icon"><img src="{{ asset('assets/images/icon1.png')}}" alt="" width="20%"></div>
                         <h4><a href="#" class="stretched-link service-toggle" data-target="dropdown1">Formation et Mentorat</a></h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eiu.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur Eiu.</p>
                         <div class="dropdown-content" id="dropdown1">
                             <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
                         </div>
@@ -69,7 +69,7 @@
                     <div class="service-item position-relative">
                         <div class="icon"><img src="{{ asset('assets/images/icon2.png')}}" alt="" width="20%"></div>
                         <h4><a href="#" class="stretched-link service-toggle" data-target="dropdown2">Recherche et développement</a></h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eiu.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur .</p>
                         <div class="dropdown-content" id="dropdown2">
                             <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
                         </div>
@@ -80,7 +80,7 @@
                     <div class="service-item position-relative">
                         <div class="icon"><img src="{{ asset('assets/images/icon3.png')}}" alt="" width="20%"></div>
                         <h4><a href="" class="stretched-link service-toggle" data-target="dropdown3">Développement de produits et propriété intellectuelle</a></h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eiu.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur .</p>
                         <div class="dropdown-content" id="dropdown3">
                             <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
                         </div>
@@ -90,8 +90,8 @@
                 <div class="swiper-slide">
                     <div class="service-item position-relative">
                         <div class="icon"><img src="{{ asset('assets/images/icon3.png')}}" alt="" width="20%"></div>
-                        <h4><a href="" class="stretched-link service-toggle" data-target="dropdown4">Développement de produits et propriété intellectuelle</a></h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eiu.</p>
+                        <h4><a href="" class="stretched-link service-toggle" data-target="dropdown4">Incubation et Acélération des Startups</a></h4>
+                        <p>Lorem ipsum, dolor sit amet consectetu.</p>
                         <div class="dropdown-content" id="dropdown4">
                             <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
                         </div>
@@ -115,31 +115,33 @@
     <div class="container section-title" data-aos="fade-up">
       <span>Qui sommes-nous?<br></span>
       <h2>Qui sommes-nous?</h2>
-      <p> Le Pole Universitaire d'Innovation et de Technologie</p>
+      <p> UNIPOD, Pole Universitaire d'Innovation et de Technologie</p>
     </div><!-- End Section Title -->
 
     <div class="container">
 
       <div class="row gy-6">
-        <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
-          <img src="{{ asset('assets/images/photo_propos.png') }}" class="img-fluid" alt="" width="90%">
+        <div class="col-lg-6 position-relative align-self-start">
+          <img src="{{ asset('assets/images/photo_propos.png') }}" class="img-fluid" alt="" width="80%">
         </div>
         <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
 
+
           <div class="none">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+                Le Pôle Universitaire d’Innovation et de Technologie s’inscrit dans l’initiative <b>TIMBUKTOO du PNUD</b>, visant à créer des UniPods dans plusieurs pays d’Afrique, dont le Togo.
+La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, au travers des FabLabs et du programme d’incubation entrepreneuriale, un cadre de formation d’innovateurs et d’entrepreneurs de qualité, ayant le savoir-faire et les compétences indispensables pour appuyer les ambitions de croissance et de développement du Togo.
             </p>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                UniPod Togo s'adresse à une diversité d'acteurs comme suit : 
             </p>
            
             <ul>
-              <li><i class="bi bi-check2-square"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-square"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-square"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+              <li><i class="bi bi-check2-square"></i> <span><b>Les étudiants et jeunes diplômés</b></span></li>
+              <li><i class="bi bi-check2-square"></i> <span><b>Les enseignants chercheurs</b></span></li>
+              <li><i class="bi bi-check2-square"></i> <span><b>Entrepreneurs</b></span></li>
+              <li><i class="bi bi-check2-square"></i> <span><b>Les innovateurs</b></span></li>
+              <li><i class="bi bi-check2-square"></i> <span><b>Artisans, Markers, Tourneurs</b></span></li>
             </ul>
           </div>
           
@@ -167,7 +169,7 @@
             <div class="card">
                 <img src="{{ asset('assets/images/woman.jpg') }}" class="card-img-top img-fluid" alt="Projet">
                 <div class="card-body text-center">
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur lo.</p>
                     <a class="btn btn-primary" href="#">Lire plus</a>
                 </div>
             </div>
@@ -181,7 +183,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 col-lg-3 mb-4">
+        <div class="col-md-8 col-lg-3 mb-4">
             <div class="card">
                 <img src="{{ asset('assets/images/woman.jpg') }}" class="card-img-top img-fluid" alt="Projet">
                 <div class="card-body text-center">
@@ -194,28 +196,6 @@
 </section>
 
   <section class="partner-section swiper2">
-
-    <style>
-.partner-section {
-    width: 100%;
-    overflow: hidden;
-}
-
-.partner-section .swiper-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.swiper-slide img {
-    max-width: 150px; /* Ajuste la taille des images */
-    height: auto;
-}
-
-.partner-section .swiper-slide{
-    box-shadow: none;
-}
-    </style>
     
     <div class="swiper-wrapper" class="d-flex justify-content-center align-items-center">
         <div class="swiper-slide"><img src="{{ asset('assets/images/ul.jpeg') }}" alt="Université de Lomé"></div>
@@ -330,14 +310,12 @@ function toggleDropdown(id) {
 
 <style>
     .footer-newsletter {
-        background-image: url('{{ asset('assets/images/istockphoto-635889854-1024x1024.jpg') }}');
+        background-image: url('{{ asset('assets/images/bloc2.png') }}') ;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         color: white;
-        /* padding: 60px 0;
-        text-align: center;
-         */
+        
     }
 </style>
 
@@ -345,8 +323,8 @@ function toggleDropdown(id) {
     <div class="container">
       <div class="row justify-content-center text-center">
         <div class="col-lg-6">
-          <h4>Join Our Newsletter</h4>
-          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <h4>Notre Newsletter</h4>
+          <p>Inscrivez-vous à notre newsletter</p>
           <form action="forms/newsletter.php" method="post" class="php-email-form">
             <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
             <div class="loading">Loading</div>
