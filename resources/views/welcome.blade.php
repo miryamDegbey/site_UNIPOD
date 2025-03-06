@@ -59,10 +59,7 @@
       </style>
 
 <style>
-  .featured-services .service-item {
-    /* border: 1px solid #c10d0d; */
-    /* height: 500px; */
-  }
+ 
 </style>
       
         <div class="swiper mySwiper">
@@ -71,6 +68,7 @@
                     <div class="service-item position-relative">
                         <div class="icon"><img src="{{ asset('assets/images/icon1.png')}}" alt="" width="20%"></div>
                         <h4><a href="#" class="stretched-link service-toggle" data-target="dropdown1">Formation et Mentorat</a></h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eiu.</p>
                         <div class="dropdown-content" id="dropdown1">
                             <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
                         </div>
@@ -273,5 +271,24 @@
         });
     });
 </script>
+<footer id="footer" class="footer">
+<div class="footer-newsletter">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-6">
+          <h4>Join Our Newsletter</h4>
+          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <form action="forms/newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  
 
 @endsection

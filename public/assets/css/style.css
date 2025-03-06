@@ -16,7 +16,7 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
-    background-color: #1d9dd92e; 
+    background-color: #1d9dd958; 
     /* border: 8px solid rgba(214, 20, 20, 0.5); */
     color: white;
     padding: 20px;
@@ -29,6 +29,10 @@
     top: 50%;
     transform: translateY(-50%); 
     z-index: 2;
+}
+
+.contenu p {
+    font-weight: 600;
 }
 
 .text-box {
@@ -44,10 +48,10 @@
     width: 5px;
     height: 60%; /* La barre occupe presque toute la hauteur du slide */
     background-color: #FFD700; /* Couleur dorée */
-    margin-right: 15px;
+    margin-right: 10px;
     position: absolute;
-    top: 30%; /* Positionne la barre légèrement vers le haut */
-    left: 15%;
+    top: 20%; /* Positionne la barre légèrement vers le haut */
+    left: 10%;
 }
 
 .project-section{

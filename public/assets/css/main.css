@@ -983,67 +983,134 @@
   }
   
   /*--------------------------------------------------------------
-  # Featured Services Section
-  --------------------------------------------------------------*/
-  .featured-services {
-    --surface-color: color-mix(in srgb, var(#ffffff), transparent 70%);
-    padding-top: 70px;
-   
-  }
-  
-  .featured-services .service-item {
-    background-color: var(--surface-color);
-    padding: 20px 20px;
-    transition: all ease-in-out 0.4s;
-    height: 100%;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    text-align: center;
-    place-items: center;
-    
-    
-    
-    
-  }
+# Services Section
+--------------------------------------------------------------*/
+.services .service-item {
+  background-color: var(--surface-color);
+  box-shadow: 0px 5px 90px 0px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  padding: 60px 30px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 5px;
+}
 
-  
-  .featured-services .service-item .icon {
-    margin-bottom: 10px;
+.services .service-item .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
 
-  }
-  
-  /* .featured-services .service-item .icon i {
-    color: var(--accent-color);
-    font-size: 36px;
-    transition: 0.3s;
-  } */
-  
-  .featured-services .service-item h4 {
-    font-weight: 700;
-    margin-bottom:0;
-    font-size: 15px;
-  }
-  
-  .featured-services .service-item h4 a {
-    color: #5F687B;
-    transition: ease-in-out 0.3s;
-  }
-  
-  .featured-services .service-item p {
-    line-height: 24px;
-    font-size: 14px;
-    margin-bottom: 0;
-  }
-  
-  .featured-services .service-item:hover {
-    transform: translateY(-10px);
-    color: #1D9ED9;
-    border: 4px solid var(--primary-color);
-  }
-  
-  .featured-services .service-item:hover h4 a {
-    color: var(--primary-color);
-  }
-  
+.services .service-item .icon i {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.services .service-item .icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.services .service-item .icon svg path {
+  transition: 0.5s;
+  fill: color-mix(in srgb, var(--default-color), transparent 95%);
+}
+
+.services .service-item h3 {
+  font-weight: 700;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+}
+
+.services .service-item p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .service-item:hover {
+  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.1);
+}
+
+.services .service-item.item-cyan i {
+  color: #0dcaf0;
+}
+
+.services .service-item.item-cyan:hover .icon i {
+  color: #fff;
+}
+
+.services .service-item.item-cyan:hover .icon path {
+  fill: #0dcaf0;
+}
+
+.services .service-item.item-orange i {
+  color: #fd7e14;
+}
+
+.services .service-item.item-orange:hover .icon i {
+  color: #fff;
+}
+
+.services .service-item.item-orange:hover .icon path {
+  fill: #fd7e14;
+}
+
+.services .service-item.item-teal i {
+  color: #20c997;
+}
+
+.services .service-item.item-teal:hover .icon i {
+  color: #fff;
+}
+
+.services .service-item.item-teal:hover .icon path {
+  fill: #20c997;
+}
+
+.services .service-item.item-red i {
+  color: #df1529;
+}
+
+.services .service-item.item-red:hover .icon i {
+  color: #fff;
+}
+
+.services .service-item.item-red:hover .icon path {
+  fill: #df1529;
+}
+
+.services .service-item.item-indigo i {
+  color: #6610f2;
+}
+
+.services .service-item.item-indigo:hover .icon i {
+  color: #fff;
+}
+
+.services .service-item.item-indigo:hover .icon path {
+  fill: #6610f2;
+}
+
+.services .service-item.item-pink i {
+  color: #f3268c;
+}
+
+.services .service-item.item-pink:hover .icon i {
+  color: #fff;
+}
+
+.services .service-item.item-pink:hover .icon path {
+  fill: #f3268c;
+}
+
   /*--------------------------------------------------------------
   # About Section
   --------------------------------------------------------------*/
@@ -1107,58 +1174,7 @@
     font-weight: 600;
   }
   
-  /*--------------------------------------------------------------
-  # Services Section
-  --------------------------------------------------------------*/
-  .services .service-item {
-    background-color: var(--surface-color);
-    text-align: center;
-    border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
-    padding: 80px 20px;
-    transition: border ease-in-out 0.3s;
-    height: 100%;
-  }
-  
-  .services .service-item .icon {
-    margin: 0 auto;
-    width: 64px;
-    height: 64px;
-    background: var(--accent-color);
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    transition: 0.3s;
-  }
-  
-  .services .service-item .icon i {
-    color: var(--contrast-color);
-    font-size: 28px;
-    transition: ease-in-out 0.3s;
-  }
-  
-  .services .service-item h3 {
-    font-weight: 700;
-    margin: 10px 0 15px 0;
-    font-size: 22px;
-    transition: 0.3s;
-  }
-  
-  .services .service-item p {
-    line-height: 24px;
-    font-size: 14px;
-    margin-bottom: 0;
-  }
-  
-  .services .service-item:hover {
-    border-color: var(--primary-color);
-  }
-  
-  .services .service-item:hover h3 {
-    color: var(--accent-color);
-  }
-  
+    
   /*--------------------------------------------------------------
   # Portfolio Section
   --------------------------------------------------------------*/

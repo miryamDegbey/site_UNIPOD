@@ -11,16 +11,16 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Accueil</a></li>
-          <li><a href="#about">A propos</a></li>
-          <li><a href="#services">Accompagnement</a></li>
-          <li><a href="#portfolio">Espaces</a></li>
+          <li><a href="/" class="active">Accueil</a></li>
+          <li><a href="{{ route('aboutUs') }}">A propos</a></li>
+          <li><a href="{{ route('support') }}">Accompagnement</a></li>
+          <li><a href="{{ route('space') }}">Espaces</a></li>
           
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="index.html#about">Nous contacter</a>
+      <a class="btn-getstarted" href="{{ route('contact') }}">Nous contacter</a>
 
     </div>
   </header>
