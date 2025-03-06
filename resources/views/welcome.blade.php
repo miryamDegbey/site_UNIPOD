@@ -52,15 +52,6 @@
 
 <section id="featured-services" class="featured-services section">
     <div class="container">
-      <style>
-        .featured-services .swiper {
-          padding-top: 50px
-        }
-      </style>
-
-<style>
- 
-</style>
       
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -78,21 +69,33 @@
                 <div class="swiper-slide">
                     <div class="service-item position-relative">
                         <div class="icon"><img src="{{ asset('assets/images/icon2.png')}}" alt="" width="20%"></div>
-                        <h4><a href="" class="stretched-link">Recherche et développement</a></h4>
+                        <h4><a href="#" class="stretched-link service-toggle" data-target="dropdown2">Recherche et développement</a></h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eiu.</p>
+                        <div class="dropdown-content" id="dropdown2">
+                            <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
                     <div class="service-item position-relative">
                         <div class="icon"><img src="{{ asset('assets/images/icon3.png')}}" alt="" width="20%"></div>
-                        <h4><a href="" class="stretched-link">Développement de produits et propriété intellectuelle</a></h4>
+                        <h4><a href="" class="stretched-link service-toggle" data-target="dropdown3">Développement de produits et propriété intellectuelle</a></h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eiu.</p>
+                        <div class="dropdown-content" id="dropdown3">
+                            <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="swiper-slide">
                     <div class="service-item position-relative">
                         <div class="icon"><img src="{{ asset('assets/images/icon3.png')}}" alt="" width="20%"></div>
-                        <h4><a href="" class="stretched-link">Développement de produits et propriété intellectuelle</a></h4>
+                        <h4><a href="" class="stretched-link service-toggle" data-target="dropdown4">Développement de produits et propriété intellectuelle</a></h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eiu.</p>
+                        <div class="dropdown-content" id="dropdown4">
+                            <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,6 +106,35 @@
         </div>
     </div>
 </section>
+
+
+
+
+
+
+<script>
+// Swiper initialization
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        768: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+        1200: { slidesPerView: 4 }
+    }
+});
+
+// Toggle dropdown content
+function toggleDropdown(id) {
+    $(".dropdown-content").not("#" + id).slideUp(); // Ferme les autres dropdowns
+    $("#" + id).slideToggle(); // Ouvre ou ferme l'élément cliqué
+}
+</script>
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -128,28 +160,9 @@
 </script>
 
 <!-- Styles pour le dropdown -->
-<style>
-    .dropdown-content {
-        display: none;
-        background: #f8f9fa;
-        padding: 10px;
-        border-radius: 5px;
-        position: relative;
-        width: 100%;
-        top: 100%;
-        left: 0;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        transition: all 0.3s ease-in-out;
-    }
 
-    .dropdown-content.active {
-        display: block;
-    }
+    
 
-    .service-item {
-        position: relative;
-    }
-</style>
 
 <script>
     var swiper = new Swiper(".mySwiper", {
