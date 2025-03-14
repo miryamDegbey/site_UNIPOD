@@ -47,7 +47,7 @@
     color: #000000;
     background-color: var(--background-color);
     font-family: 'Poppins';
-    font-size: 15px;
+    font-size: 14px;
     text-align: justify;
   }
   
@@ -64,9 +64,9 @@
   h4,
   h5,
   h6 {
-    color: var(--heading-color);
+    color: var(#000000);
     font-family: 'Poppins';
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     
   }
@@ -1366,7 +1366,8 @@
     z-index: 2;
   }
   
-  .call-to-action .container {
+  .call-to-action 
+   {
     position: relative;
     z-index: 3;
   }

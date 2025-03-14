@@ -9,7 +9,7 @@
         <!-- Swiper -->
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner6.jpeg') }}');">
+                <div class="swiper-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.316)), url('{{ asset('assets/images/photo_banner6.jpeg') }}');">
                     <div class="contenu">
                         <div class="vertical-bar"></div>
                         <div>
@@ -21,25 +21,25 @@
                 </div>
 
                 <!-- Slide 2 -->
-                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner7.jpeg') }}');">
+                <div class="swiper-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.558), rgba(0, 0, 0, 0.468)), url('{{ asset('assets/images/photo_banner7.jpeg') }}');">
                     <div class="contenu">
                         <div class="vertical-bar"></div>
                         <div>
-                            <p class="text-box">Du campus aux perspectives futures,</p>
-                            <p class="text-box">UniPod Togo dévoile les talents émergents</p>
-                            <p class="text-box">pour façonner un avenir prometteur !</p>
+                            <p class="text-box">UniPod Togo valorise les talents émergents,</p>
+                            <p class="text-box">pour un avenir prometteur.</p>
+                            
                         </div>
                     </div>
                 </div>
 
                 <!-- Slide 3 -->
-                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner8.jpeg') }}');">
+                <div class="swiper-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.449), rgba(0, 0, 0, 0.316)), url('{{ asset('assets/images/photo_banner8.jpeg') }}');">
                     <div class="contenu">
                         <div class="vertical-bar"></div>
                         <div>
                             <p class="text-box">UniPod Togo, catalyseur de transformation :</p>
                             <p class="text-box">vos idées se convertissent en projets d'impact</p>
-                            <p class="text-box">réinventent notre futur !</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                     <div class="service-item position-relative">
                         <div class="icon"><img src="{{ asset('assets/images/icon1.png')}}" alt="" width="20%"></div>
                         <h4><a href="#" class="stretched-link service-toggle" data-target="dropdown1">Formation et Mentorat</a></h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur Eiu.</p>
+                        <p>UniPod promeut les géants de demain. </p>
                         <div class="dropdown-content" id="dropdown1">
                             <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
                         </div>
@@ -69,7 +69,7 @@
                     <div class="service-item position-relative">
                         <div class="icon"><img src="{{ asset('assets/images/icon2.png')}}" alt="" width="20%"></div>
                         <h4><a href="#" class="stretched-link service-toggle" data-target="dropdown2">Recherche et développement</a></h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur .</p>
+                        <p>Unipod accélère la révolution numérique.</p>
                         <div class="dropdown-content" id="dropdown2">
                             <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
                         </div>
@@ -80,7 +80,7 @@
                     <div class="service-item position-relative">
                         <div class="icon"><img src="{{ asset('assets/images/icon3.png')}}" alt="" width="20%"></div>
                         <h4><a href="" class="stretched-link service-toggle" data-target="dropdown3">Développement de produits et propriété intellectuelle</a></h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur .</p>
+                        <p>Unipod transforme les prototypes en succès .</p>
                         <div class="dropdown-content" id="dropdown3">
                             <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
                         </div>
@@ -91,7 +91,7 @@
                     <div class="service-item position-relative">
                         <div class="icon"><img src="{{ asset('assets/images/icon3.png')}}" alt="" width="20%"></div>
                         <h4><a href="" class="stretched-link service-toggle" data-target="dropdown4">Incubation et Acélération des Startups</a></h4>
-                        <p>Lorem ipsum, dolor sit amet consectetu.</p>
+                        <p>Créons, innovons et transformons.</p>
                         <div class="dropdown-content" id="dropdown4">
                             <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
                         </div>
@@ -210,7 +210,7 @@ La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, a
     document.addEventListener("DOMContentLoaded", function () {
         new Swiper(".swiper2", {
             slidesPerView: "3", 
-            spaceBetween: 10,
+            spaceBetween: 0,
             loop: true,
             autoplay: {
                 delay: 2000, // 2 secondes entre chaque défilement

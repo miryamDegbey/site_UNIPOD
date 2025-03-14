@@ -6,7 +6,7 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="d-flex align-items-center">
-            <img src="{{ asset('assets/images/logo.png') }}" alt="Logo" width="30%">
+            <img src="{{ asset('assets/images/favicon-remove.png') }}" alt="Logo" width="30%">
           </a>
           <div class="footer-contact pt-3">
             <p>Université de Lomé</p>
