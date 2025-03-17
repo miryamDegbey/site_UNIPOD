@@ -21,6 +21,7 @@
         <ul>
           <li><a href="/" class="{{ request()->routeIs('welcome') ? 'active' : '' }}">Accueil</a></li>
           <li><a href="{{ route('aboutUs') }}"  class="{{ request()->routeIs('aboutUs') ? 'active' : '' }}">A propos</a></li>
+          <li><a href="{{ route('service') }}"  class="{{ request()->routeIs('service') ? 'active' : '' }}">Services</a></li>
           {{-- <li><a href="{{ route('support') }}" class="{{ request()->routeIs('support') ? 'active' : '' }}">Accompagnement</a></li> --}}
           {{-- <li><a href="{{ route('space') }}" class="{{ request()->routeIs('space') ? 'active' : '' }}">Espaces</a></li> --}}
         </ul>
