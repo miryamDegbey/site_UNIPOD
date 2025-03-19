@@ -2,33 +2,61 @@
 
 @section('content')
     <main class="main">
-
-
-
         <!-- Starter Section Section -->
         <section id="starter-section" class="starter-section section">
-
-            
-
-            <style>
+    <style>
                 #starter-section {
                     background-image: 
                     linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
                     url('{{ asset('assets/images/photo_about.png') }}'),linear-gradient(red, black, white);
                     background-size: cover;
-                    color: white;
-                    
-                
+                    color: white;   
                 }
             </style>
-
-
             <div class="container section-title" data-aos="fade-up">
                 {{-- <img src="{{ asset('assets/images/photo_about.png') }}" alt=""> --}}
         
                 <h2> A Propos De Nous</h2>
                 <p>Découvrez qui nous sommes-nous?</p>
             </div><!-- End Section Title -->
+        </section>
+
+        <section class="container py-5">
+            {{-- <div data-aos="fade-right"></div> --}}
+            <div  class="row align-items-center">
+                <div data-aos="fade-right" class="col-md-6">
+                    <div class="position-relative">
+                        <div class="rounded-3 overflow-hidden">
+                            <img src="{{ asset('assets/images/homme_profil.jpeg') }}" 
+                                 alt="Directeur Général" 
+                                 class="img-fluid rounded-3">
+                        </div>
+                        <div class="position-absolute bottom-0 end-0 bg-primary text-white p-3 rounded shadow d-none d-md-block">
+                            <i class="fs-3 bi bi-quote"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div data-aos="zoom-in-left" class="col-md-6">
+                    <h2 class="fw-bold text-dark">Message du Directeur</h2>
+                    <p class="text-primary fw-semibold fs-5">Jean-Michel Durant</p>
+                    <p class="text-muted">Directeur Général</p>
+    
+                    <p>Chers collaborateurs et partenaires,</p>
+                    <p>
+                        C'est avec une grande fierté que je m'adresse à vous aujourd'hui. Notre organisation 
+                        continue de croître et d'innover, portée par l'engagement et le talent de chacun 
+                        d'entre vous. Notre vision est claire : devenir un leader dans notre secteur tout 
+                        en maintenant nos valeurs d'excellence, d'innovation et d'intégrité.
+                    </p>
+                    <p>
+                        Ensemble, nous construisons un avenir prometteur, où chaque défi est une opportunité 
+                        de nous surpasser et de créer de la valeur pour nos clients et notre société.
+                    </p>
+    
+                  
+                </div>
+            </div>
         </section>
 
         <section class="presentation">

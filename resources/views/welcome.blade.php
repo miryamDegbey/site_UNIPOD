@@ -49,62 +49,52 @@
     </div> 
 </div> 
 
-<section id="featured-services" class="featured-services section">
+<section id="hero" class="hero section">
+
+
     <div class="container">
-      
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="service-item position-relative">
-                        <div class="icon"><img src="{{ asset('assets/images/icon1.png')}}" alt="" width="20%"></div>
-                        <h4><a href="#" class="stretched-link service-toggle" data-target="dropdown1">Formation et Mentorat</a></h4>
-                        <p>UniPod promeut les géants de demain. </p>
-                        <div class="dropdown-content" id="dropdown1">
-                            <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="service-item position-relative">
-                        <div class="icon"><img src="{{ asset('assets/images/icon2.png')}}" alt="" width="20%"></div>
-                        <h4><a href="#" class="stretched-link service-toggle" data-target="dropdown2">Recherche et développement</a></h4>
-                        <p>Unipod accélère la révolution numérique.</p>
-                        <div class="dropdown-content" id="dropdown2">
-                            <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="service-item position-relative">
-                        <div class="icon"><img src="{{ asset('assets/images/icon3.png')}}" alt="" width="20%"></div>
-                        <h4><a href="" class="stretched-link service-toggle" data-target="dropdown3">Développement de produits et propriété intellectuelle</a></h4>
-                        <p>Unipod transforme les prototypes en succès .</p>
-                        <div class="dropdown-content" id="dropdown3">
-                            <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide">
-                    <div class="service-item position-relative">
-                        <div class="icon"><img src="{{ asset('assets/images/icon3.png')}}" alt="" width="20%"></div>
-                        <h4><a href="" class="stretched-link service-toggle" data-target="dropdown4">Incubation et Acélération des Startups</a></h4>
-                        <p>Créons, innovons et transformons.</p>
-                        <div class="dropdown-content" id="dropdown4">
-                            <p>Nous offrons des formations et du mentorat pour aider à développer vos compétences.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Navigation buttons -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+    <div class="container section-title" data-aos="fade-up">
+        <span>Nos Services<br></span>
+        <h2>Nos Services</h2>
+        <p> UNIPOD, Pole Universitaire d'Innovation et de Technologie</p>
+      </div>
+  
+      <div class="row gy-4 mt-2">
+        <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-easel"></i></div>
+            <h4 class="title"><a href="{{ route('service') }}">Industry-Specific Training Services</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+          </div>
         </div>
+
+        <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-gem"></i></div>
+            <h4 class="title"><a href="{{ route('service') }}">Contract Fabrication</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="300">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-geo-alt"></i></div>
+            <h4 class="title"><a href="{{ route('service') }}">Product Development</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-command"></i></div>
+            <h4 class="title"><a href="{{ route('service') }}">Consultancy</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
+
+  </section>
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
