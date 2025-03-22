@@ -9,19 +9,19 @@
         <!-- Swiper -->
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.316)), url('{{ asset('assets/images/photo_banner6.jpeg') }}');">
+                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner6.jpeg') }}');">
                     <div class="contenu">
                         <div class="vertical-bar"></div>
                         <div>
                             <p class="text-box">Connecter , créer ,innover l'Unipod , Moteur</p>
-                            <p class="text-box">du changement pour</p>
+                            <p class="text-box">du changement pour la</p>
                             <p class="text-box">jeunesse togolaise !</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Slide 2 -->
-                <div class="swiper-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.558), rgba(0, 0, 0, 0.468)), url('{{ asset('assets/images/photo_banner7.jpeg') }}');">
+                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner7.jpeg') }}');">
                     <div class="contenu">
                         <div class="vertical-bar"></div>
                         <div>
@@ -33,7 +33,8 @@
                 </div>
 
                 <!-- Slide 3 -->
-                <div class="swiper-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.449), rgba(0, 0, 0, 0.316)), url('{{ asset('assets/images/photo_banner8.jpeg') }}');">
+                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner8.jpeg') }}');">
+                {{-- linear-gradient(rgba(0, 0, 0, 0.449), rgba(0, 0, 0, 0.316)),  --}}
                     <div class="contenu">
                         <div class="vertical-bar"></div>
                         <div>
@@ -54,41 +55,41 @@
 
     <div class="container">
     <div class="container section-title" data-aos="fade-up">
-        <span>Nos Services<br></span>
+       
         <h2>Nos Services</h2>
-        <p> UNIPOD, Pole Universitaire d'Innovation et de Technologie</p>
+        <p>Les services offerts par UniPod Togo :</p>
       </div>
   
       <div class="row gy-4 mt-2">
         <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="100">
-          <div class="icon-box">
-            <div class="icon"><i class="bi bi-easel"></i></div>
-            <h4 class="title"><a href="{{ route('service') }}">Industry-Specific Training Services</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+        <div class="icon-box">
+            <div class="icon"><i class="bi bi-mortarboard text-warning fs-3"></i></div>
+            <h4 class="title"><a href="{{ route('service') }}">Formation et Mentorat</a></h4>
+            <p class="description">UniPod promeut les géants de demain.</p>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="200">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-gem"></i></div>
-            <h4 class="title"><a href="{{ route('service') }}">Contract Fabrication</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            <div class="icon"><i class="bi bi-search text-warning fs-3"></i></div>
+            <h4 class="title"><a href="{{ route('service') }}">Recherche et Développement</a></h4>
+            <p class="description">UniPod accélère la révolution numérique.</p>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="300">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-geo-alt"></i></div>
-            <h4 class="title"><a href="{{ route('service') }}">Product Development</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            <div class="icon"><i class="bi bi-box-seam text-warning fs-3"></i>  </div>
+            <h4 class="title"><a href="{{ route('service') }}">Développement de produits et propriété intellectuelle</a></h4>
+            <p class="description">UniPod transforme les prototypes en succès.</p>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-command"></i></div>
-            <h4 class="title"><a href="{{ route('service') }}">Consultancy</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            <div class="icon"><i class="bi bi-lightbulb text-warning fs-3"></i>  </div>
+            <h4 class="title"><a href="{{ route('service') }}">Incubation et Accélération des Startups </a></h4>
+            <p class="description">Créons, Innovons et Transformons.</p>
           </div>
         </div>
       </div>
@@ -117,7 +118,7 @@
         <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
 
 
-          <div class="none">
+        <div class="none">
             <p>
                 Le Pôle Universitaire d’Innovation et de Technologie s’inscrit dans l’initiative <b>TIMBUKTOO du PNUD</b>, visant à créer des UniPods dans plusieurs pays d’Afrique, dont le Togo.
 La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, au travers des FabLabs et du programme d’incubation entrepreneuriale, un cadre de formation d’innovateurs et d’entrepreneurs de qualité, ayant le savoir-faire et les compétences indispensables pour appuyer les ambitions de croissance et de développement du Togo.
@@ -133,7 +134,7 @@ La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, a
               <li><i class="bi bi-check2-square"></i> <span><b>Les innovateurs</b></span></li>
               <li><i class="bi bi-check2-square"></i> <span><b>Artisans, Markers, Tourneurs</b></span></li>
             </ul>
-          </div>
+        </div>
           
           
           
@@ -151,7 +152,7 @@ La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, a
                 <img src="{{ asset('assets/images/woman.jpg') }}" class="card-img-top img-fluid" alt="Projet">
                 <div class="card-body text-center">
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    <a class="btn btn-primary" href="#">Lire plus</a>
+                    <a class="btn btn-warning" href="{{ Route('support') }}">Lire plus</a>
                 </div>
             </div>
         </div>
@@ -160,7 +161,7 @@ La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, a
                 <img src="{{ asset('assets/images/woman.jpg') }}" class="card-img-top img-fluid" alt="Projet">
                 <div class="card-body text-center">
                     <p>Lorem ipsum dolor sit amet consectetur lo.</p>
-                    <a class="btn btn-primary" href="#">Lire plus</a>
+                    <a class="btn btn-warning" href="{{ Route('program_detail1') }}">Lire plus</a>
                 </div>
             </div>
         </div>
@@ -169,7 +170,7 @@ La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, a
                 <img src="{{ asset('assets/images/woman.jpg') }}" class="card-img-top img-fluid" alt="Projet">
                 <div class="card-body text-center">
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    <a class="btn btn-primary" href="#">Lire plus</a>
+                    <a class="btn btn-warning" href="#">Lire plus</a>
                 </div>
             </div>
         </div>
@@ -178,7 +179,7 @@ La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, a
                 <img src="{{ asset('assets/images/woman.jpg') }}" class="card-img-top img-fluid" alt="Projet">
                 <div class="card-body text-center">
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    <a class="btn btn-primary" href="#">Lire plus</a>
+                    <a class="btn btn-warning" href="#">Lire plus</a>
                 </div>
             </div>
         </div>

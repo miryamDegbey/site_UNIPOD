@@ -90,7 +90,7 @@
                 </div>
     
                 <div class="col-md-12">
-                  <label for="subject-field" class="pb-2">Sujet</label>
+                  <label for="subject-field" class="pb-2">Objet</label>
                   <input type="text" class="form-control" name="subject" id="subject-field" required="">
                 </div>
     

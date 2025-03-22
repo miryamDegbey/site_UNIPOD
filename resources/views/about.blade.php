@@ -27,7 +27,7 @@
                 <div data-aos="fade-right" class="col-md-6">
                     <div class="position-relative">
                         <div class="rounded-3 overflow-hidden">
-                            <img src="{{ asset('assets/images/homme_profil.jpeg') }}" 
+                            <img src="{{ asset('assets/images/photo_directeur.jpg') }}" width="70%" 
                                  alt="Directeur Général" 
                                  class="img-fluid rounded-3">
                         </div>
@@ -38,9 +38,9 @@
                 </div>
                 
                 <div data-aos="zoom-in-left" class="col-md-6">
-                    <h2 class="fw-bold text-dark">Message du Directeur</h2>
-                    <p class="text-primary fw-semibold fs-5">Jean-Michel Durant</p>
-                    <p class="text-muted">Directeur Général</p>
+                    <h2 class="fw-semi-bold text-dark">Mot du Directeur</h2>
+                    <p class="text-dark fw-bold fs-5">Professeur Edem KOLEDJI</p>
+                    <p class="text-muted">Directeur Général de UniPod Togo</p>
     
                     <p>Chers collaborateurs et partenaires,</p>
                     <p>
@@ -134,7 +134,7 @@
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 {{-- <span>Section Title</span> --}}
-                <h2>Notre Valeureuse équipe</h2>
+                <h2>Notre équipe</h2>
                 {{-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> --}}
             </div><!-- End Section Title -->
 
@@ -145,7 +145,7 @@
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="member">
                             <div class="pic"><img src="{{ asset('assets/images/homme_profil.jpeg') }}" class="img-fluid"
-                                    alt=""></div>
+                                    alt="" width="70%"></div>
                             <div class="member-info">
                                 <h4>Pr Edem KOLEDJI</h4>
                                 <span>Directeur Général Unipod</span>
@@ -156,7 +156,7 @@
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="member">
-                            <div class="pic"><img src="assets/images/homme_profil.jpeg" class="img-fluid" alt="">
+                            <div class="pic"><img src="assets/images/homme_profil.jpeg" class="img-fluid" alt="" width="70%">
                             </div>
                             <div class="member-info">
                                 <h4>Dr-Ing. Komlan LOLO</h4>

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PagesController;
+use App\Http\Controllers\ProgramController;
 use App\Http\Controllers\Service_detailsController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,3 +17,7 @@ Route::get('/services', [PagesController::class,'Service'])->name('service');
 Route::get('/contact', [PagesController::class,'Contact'])->name('contact');
 
 Route::get('/service_detail_1', [Service_detailsController::class,'Service_detail1'])->name('service_detail_1');
+
+Route::get('/program_detail1', [ProgramController::class,'Program'])->name('program_detail1');
+
+// Route::get('/program_detail1', [ProgramController::class,'Program1'])->name('program_detail2');

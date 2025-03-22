@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
-    background-color: #1d9dd92c; 
+    background-color: #1d9dd936; 
     /* border: 8px solid rgba(214, 20, 20, 0.5); */
     color: white;
     padding: 20px;
@@ -33,7 +33,7 @@
 }
 
 .contenu p {
-    font-weight: 700;
+    font-weight: 600;
     font-family: 'Poppins';
     font-size: 28px;
 }
@@ -140,7 +140,7 @@ box-sizing: border-box
     width: 100%;
     overflow: hidden;
 }
-
+ 
 .partner-section .swiper-slide {
     display: flex;
     justify-content: center;
@@ -277,7 +277,7 @@ box-sizing: border-box
 
     .hero .icon-box {
         background-color: var(--surface-color);
-        padding: 50px 30px;
+        padding: 50px 20px;
         position: relative;
         overflow: hidden;
         box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
@@ -286,17 +286,22 @@ box-sizing: border-box
         z-index: 1;
         height: 100%;
         width: 100%;
+       
+        
       }
       
       .hero .icon-box .title {
         font-weight: 700;
-        margin-bottom: 15px;
-        font-size: 18px;
+        margin-bottom: 12px;
+        font-size: 16px;
+        
+        
       }
       
       .hero .icon-box .title a {
-        color: var(--heading-color);
+        color: #000000;
         transition: 0.3s;
+
       }
       
       .hero .icon-box .description {
@@ -314,6 +319,59 @@ box-sizing: border-box
         line-height: 1;
         color: var(--accent-color);
       }
+
+/* support_program */
+      .support_program {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        padding: 80px;
+        max-width: 900px; /* Augmente la largeur du conteneur */
+        margin: auto;
+    }
+    
+    .support_program img {
+        width: 100%;
+        max-width: 800px; /* Image plus grande */
+        display: block;
+        border-radius: 10px;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Léger effet d’ombre */
+    }
+    
+    .support_program h3 {
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .support_program p {
+        font-size: 18px;
+        line-height: 1.7;
+        margin-bottom: 15px;
+    }
+    
+    .support_program ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 10px;
+    }
+    
+    .support_program ul li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .support_program ul i {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+      
+
+
       
       @media (min-width: 640px) {
         .hero .icon-box:hover {
@@ -321,7 +379,7 @@ box-sizing: border-box
         }
       
         .hero .icon-box:hover .title a {
-          color: var(--accent-color);
+          color: #00000091;
         }
       }
 
@@ -414,8 +472,153 @@ box-sizing: border-box
       .tabs .tab-pane p:last-child {
         margin-bottom: 0;
       }
-      
+
+      .tab-content .row {
+        align-items: center;
+
+      }
+
+      .tab-content{
+        padding: 60px 30px 30px;
+      }
+
+      .tab-content .row h3 {
+        font-size: 22px;
+        color: #000000;
+        margin-bottom:15px ;
+        
+      }
+
+      .tab-content .row  .fst  {
+       
+        color: #000000;
+        font-size: 16px;
+      }
+
+      .tab-content .row .fst-italic {
+        color: #000000;
+        font-size: 16px;
+
+      }
+
+      .tab-content .row li {
+        color: #000000;
+        font-size: 16px;
+      }
+
+      /* service details */
+      .container_serv{
+        display: flex;
+        gap: 20px;
+        max-width: 1200px;
+        margin: auto;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        padding-bottom: 70px;
+    }
     
+    /* Section principale (grande image + texte) */
+    .main-content {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        border-radius: 0px;
+background: #FFFFFF;
+box-shadow:  5px 5px 32px #e8e8e8,
+             -5px -5px 32px #ffffff;
+             padding: 20px 40px 40px;
+        
+    }
+    
+    .large-img {
+        width: 100%;
+        max-width: 700px;
+        border-radius: 10px;
+    }
+    
+    /* Texte sous la grande image */
+    .text-content {
+        margin-top: 15px;
+      
+    }
+    
+    /* Section secondaire (deux petites images à droite) */
+    .side-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Pour aligner une en haut et l'autre en bas */
+        height: 100%; /* Assurer que ça ne dépasse pas */
+    }
+    
+    .small-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 10px 20px;
+        border-radius: 35px;
+        border-radius: 15px;
+        border-radius: 15px;
+        background: #FFFFFF;
+        box-shadow:  5px 5px 32px #d1d1d1,
+                     -5px -5px 32px #ffffff;
+        
+    }
+    
+    .small-box img {
+        width: 80%;
+        max-width: 200px;
+        border-radius: 8px;
+       
+    }
+    
+    .small-box p {
+        font-size: 12px;
+        margin-top: 5px;
+        text-align: justify;
+    }
 
+    /* responsive */
+    @media (max-width: 1024px) {
+      .container {
+          flex-direction: column;
+          align-items: center;
+      }
+  
+      .side-content {
+          flex-direction: row;
+          gap: 10px;
+          margin-top: 20px;
+      }
+  
+      .small-box {
+          flex: 1;
+      }
+  
+      .small-box img {
+          max-width: 150px;
+      }
+  }
+  
+  @media (max-width: 768px) {
+      .container {
+          flex-direction: column;
+          align-items: center;
+      }
+  
+      .side-content {
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+      }
+  
+      .small-box img {
+          max-width: 100px;
+      }
+  }
 
-     
+      
