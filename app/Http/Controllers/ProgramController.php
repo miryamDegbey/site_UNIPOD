@@ -7,12 +7,19 @@ use Illuminate\Http\Request;
 class ProgramController extends Controller
 {
     public function Program(){
-        return view('programs.program_detail1');
+        return view('programs');
 
     }
 
-    // public function Program2(){
+    // public function Project2(){
     //     return view('programs.program_detail2');
 
     // }
+
+    // public function Project3(){
+    //     return view('programs.program_detail3');
+
+    // }
+
+    
 }

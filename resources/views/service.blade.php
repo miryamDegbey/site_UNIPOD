@@ -11,17 +11,13 @@
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-right">
                             <h3>Formation et Mentorat</h3>
                             <p class="fst">
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum
+                                UniPod Togo offre des services de formation et de mentorat pour accompagner les jeunes et professionnels dans leur développement. Les formations couvrent des domaines tels que le développement web, le marketing digital et l'entrepreneuriat, tandis que le mentorat fournit un accompagnement personnalisé pour aider chaque individu à atteindre ses objectifs professionnels avec l'aide d'experts.
                             </p>
-                            <p class="fst-italic">
+                            {{-- <p class="fst-italic">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore
                                 magna aliqua.
-                            </p>
+                            </p> --}}
                             <ul>
                                 <li><i class="bi bi-check2-all"></i> <span>Développement pratique de compétences professionnelles</span></li>
                                 <li><i class="bi bi-check2-all"></i> <span>Certifications dans les domaines du numérique et de la fabrication numérique.</span></li>
@@ -29,8 +25,8 @@
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-left">
-                            <img src="assets/images/serv1.jpg" width="80%" alt=""
-                                class="img-fluid rounded-3 shadow-lg rounded-4">
+                            <img src="assets/images/formation.png" width="60%" alt=""
+                                class="img-fluid rounded-3  rounded-4">
                         </div>
                     </div>
                 </div>
@@ -40,24 +36,19 @@
                 <div class="tab-pane fade active show" id="tabs-tab-4">
                     <div class="row">
                         <div class="col-lg-6 order-1 order-lg-1 text-center" data-aos="fade-up-right">
-                            <img src="assets/images/serv2.jpg" width="80%" alt=""
-                                class="img-fluid rounded-3 shadow-lg rounded-4">
+                            <img src="assets/images/recherche.png" width="50%" alt=""
+                                class="img-fluid rounded-3  rounded-4">
                         </div>
 
                         <div class="col-lg-6 order-2 order-lg-2 mt-3 mt-lg-0" data-aos="fade-right">
                             <h3>Recherche et Développement</h3>
                             <p class="fst">
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum
-                            </p>
-                            <p class="fst-italic">
+                                UniPod Togo propose des ateliers pratiques pour aider les jeunes à acquérir des compétences concrètes dans divers domaines. Ces ateliers interactifs permettent aux participants d'apprendre en pratiquant, en développant des projets réels et en obtenant des retours constructifs, afin de renforcer leur employabilité et leur confiance.
+                            {{-- <p class="fst-italic">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore
                                 magna aliqua.
-                            </p>
+                            </p> --}}
                             <ul>
                                 <li><i class="bi bi-check2-all"></i> <span>Production de commaissances pour les grains socio-économiques.</span></li>
                                 <li><i class="bi bi-check2-all"></i> <span>Orientation sur les besoins du marché pour la commercialisation.</span></li>
@@ -76,17 +67,13 @@
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up-left">
                             <h3>Développement de produits et propriété intellectuelle</h3>
                             <p class="fst">
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum
+                                UniPod Togo offre des services en développement de produits et propriété intellectuelle pour aider les entrepreneurs à concevoir et protéger leurs idées. Cela inclut l'accompagnement dans la création de produits innovants, ainsi que des conseils pour sécuriser les droits de propriété intellectuelle, assurant ainsi la protection légale des inventions et créations.
                             </p>
-                            <p class="fst-italic">
+                            {{-- <p class="fst-italic">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore
                                 magna aliqua.
-                            </p>
+                            </p> --}}
                             <ul>
                                 <li><i class="bi bi-check2-all"></i> <span>Prototypage d'idées en produits</span></li>
                                 <li><i class="bi bi-check2-all"></i> <span>Dispositif de transfert de technologie.</span></li>
@@ -94,8 +81,8 @@
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up-right">
-                            <img src="assets/images/serv5.jpg" width="80%"
-                                class="img-fluid rounded-3 shadow-lg rounded-4">
+                            <img src="assets/images/produit.png" width="50%"
+                                class="img-fluid rounded-3 rounded-4">
                         </div>
                     </div>
                 </div>
@@ -106,24 +93,20 @@
                 <div class="tab-pane fade active show" id="tabs-tab-4">
                     <div class="row">
                         <div class="col-lg-6 order-1 order-lg-1 text-center" data-aos="fade-up-right">
-                            <img src="assets/images/serv1.jpg" width="80%" alt=""
-                                class="img-fluid rounded-3 shadow-lg rounded-4">
+                            <img src="assets/images/incubation.png" width="50%" alt=""
+                                class="img-fluid rounded-3 rounded-4">
                         </div>
 
                         <div class="col-lg-6 order-2 order-lg-2 mt-3 mt-lg-0" data-aos="fade-right">
                             <h3>Incubation et Accélération des Startups</h3>
                             <p class="fst">
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident, sunt in
-                                culpa qui officia deserunt mollit anim id est laborum
+                                UniPod Togo propose des services d'incubation et d'accélération pour les startups, offrant un accompagnement personnalisé pour les aider à se développer rapidement. Cela inclut des ressources, des formations, du mentorat, ainsi qu'un soutien financier et stratégique pour transformer des idées innovantes en entreprises prospères.
                             </p>
-                            <p class="fst-italic">
+                            {{-- <p class="fst-italic">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore
                                 magna aliqua.
-                            </p>
+                            </p> --}}
                             <ul>
                                 <li><i class="bi bi-check2-all"></i> <span>Accompagnement à la création de valeur.</span></li>
                                 <li><i class="bi bi-check2-all"></i> <span>Realisation de tests et validation.</span></li>

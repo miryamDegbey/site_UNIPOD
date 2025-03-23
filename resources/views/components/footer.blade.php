@@ -29,21 +29,21 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Nos Partenaires</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Université de Lomé</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Pnud</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://univ-lome.tg/">Université de Lomé</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://www.undp.org/fr/togo">Pnud</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://www.undp.org/fr/togo">Timbuktoo</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
           </ul>
         </div>
 
         <div class="col-lg-4 col-md-12">
           <h4>Nos réseaux sociaux</h4>
-          <p>Suivez-nous sur nos différents réseaux</p>
+          <p>Suivez-nous sur nos pages sociales</p>
           <div class="social-links d-flex">
             <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61571771607092"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/unipodtogo?igsh=MWR1M2Y4cmYzc242Ng=="><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/unipod-togo/"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
