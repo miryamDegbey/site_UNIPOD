@@ -44,10 +44,11 @@
                 </svg>
                 <i class="bi bi-sun"></i>
               </div>
-              <a href="" class="stretched-link">
+              <a href="{{ Route('service_detail_1') }}" class="stretched-link">
                 <h3>Laboratoire Energie Renouvelable</h3>
               </a>
               <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <a href="{{ Route('service_detail_1') }}" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -59,10 +60,11 @@
                 </svg>
                 <i class="bi bi-droplet"></i> 
               </div>
-              <a href="{{ Route('service_detail_1') }}" class="stretched-link">
+              <a href="{{ Route('service_detail_2') }}" class="stretched-link">
                 <h3>Laboratoire de Technologie Agro-alimentaire</h3>
               </a>
               <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <a href="{{ Route('service_detail_2') }}" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -74,10 +76,11 @@
                 </svg>
                 <i class="bi bi-scissors"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="{{ Route('service_detail_3') }}" class="stretched-link">
                 <h3>Laboratoire Textile et Broderie</h3>
               </a>
               <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <a href="{{ Route('service_detail_3') }}" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -89,11 +92,11 @@
                 </svg>
                 <i class="bi bi-tools"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="{{ Route('service_detail_4') }}" class="stretched-link">
                 <h3>Laboratoire Bois</h3>
               </a>
               <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <a href="{{ Route('service_detail_4') }}" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -105,11 +108,11 @@
                 </svg>
                 <i class="bi bi-gear"></i>
               </div>
-              <a href="service-details.html" class="stretched-link">
+              <a href="{{ Route('service_detail_5') }}" class="stretched-link">
                 <h3>Laboratoire Mécanique</h3>
               </a>
               <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="service-details.html" class="stretched-link"></a>
+              <a href="{{ Route('service_detail_5') }}" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 

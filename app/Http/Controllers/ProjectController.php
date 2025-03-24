@@ -21,4 +21,6 @@ class ProjectController extends Controller
         return view('projects.project_detail3');
 
     }
+
+    
 }

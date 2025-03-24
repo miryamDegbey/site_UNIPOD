@@ -33,8 +33,8 @@
                 }
             </style>
             <div class="container section-title" data-aos="fade-up">
-                <h2> A Propos De Nous</h2>
-                <p>Découvrez qui nous sommes-nous?</p>
+                <h2> Les programmes fournis au sein d'UniPod</h2>
+                <p>Découvrez nos differents programmes?</p>
             </div><!-- End Section Title -->
         </section>
         <div class="container-fluid">
@@ -47,10 +47,10 @@
                 <div class="col-md-6 d-flex align-items-center justify-content-center">
                     <div class="btn-group-vertical">
                         <button class="btn btn-primary dropdown-toggle mb-3 btn-lg" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 600px;">
-                            Dropdown 1
+                            Prototypage, Innovation et R&D
                         </button>
                         <ul class="dropdown-menu" style="width: 600px;">
-                            <li><a class="dropdown-item" href="#">Option 1</a></li>
+                            <li><a class="dropdown-item" href="#">Fornir aux etudiant</a></li>
                             <li><a class="dropdown-item" href="#">Option 2</a></li>
                             <li><a class="dropdown-item" href="#">Option 3</a></li>
                         </ul>

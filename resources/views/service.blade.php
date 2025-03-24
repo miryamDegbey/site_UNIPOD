@@ -5,7 +5,7 @@
 
         <div class="container">
             {{-- first --}}
-            <div class="tab-content">
+            <div class="tab-content custom-bg p-1">
                 <div class="tab-pane fade active show" id="tabs-tab-4">
                     <div class="row">
                         <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-right">
@@ -19,9 +19,9 @@
                                 magna aliqua.
                             </p> --}}
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> <span>Développement pratique de compétences professionnelles</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Certifications dans les domaines du numérique et de la fabrication numérique.</span></li>
-                                <li><i class="bi bi-check2-all"></i> <span>Accès et utilisation des technologies avancées.</span></li>
+                                <li><i class="bi bi-check2-all"></i><span>Développement pratique de compétences professionnelles</span></li>
+                                <li><i class="bi bi-check2-all"></i><span>Certifications dans les domaines du numérique et de la fabrication numérique.</span></li>
+                                <li><i class="bi bi-check2-all"></i><span>Accès et utilisation des technologies avancées.</span></li>
                             </ul>
                         </div>
                         <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-left">

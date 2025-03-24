@@ -1,3 +1,4 @@
+
 .swiper-container {
     width: 100%;
     height: 600px;
@@ -264,13 +265,16 @@ box-sizing: border-box
     }
 
     .starter-section h2 {
-        color: #FFFFFF;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px !important;
+
        
     }
     
     .starter-section p {
         color: #FFFFFF;
-        font-size: 16px;
+        font-size: 20px;
         
     }
 
@@ -319,6 +323,9 @@ box-sizing: border-box
         line-height: 1;
         color: var(--accent-color);
       }
+
+      /* service couleur background */
+      
 
       
 

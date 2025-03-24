@@ -8,8 +8,9 @@ class ProgramController extends Controller
 {
     public function Program(){
         return view('programs');
-
     }
+
+    
 
     // public function Project2(){
     //     return view('programs.program_detail2');

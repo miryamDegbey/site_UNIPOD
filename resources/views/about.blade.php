@@ -7,7 +7,7 @@
     <style>
                 #starter-section {
                     background-image: 
-                    linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
+                    linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.418)),
                     url('{{ asset('assets/images/photo_about.png') }}'),linear-gradient(red, black, white);
                     background-size: cover;
                     color: white;   
@@ -31,9 +31,9 @@
                                  alt="Directeur Général" 
                                  class="img-fluid rounded-3">
                         </div>
-                        <div class="position-absolute bottom-0 end-0 bg-primary text-white p-3 rounded shadow d-none d-md-block">
+                        {{-- <div class="position-absolute bottom-0 end-0 bg-primary text-white p-3 rounded shadow d-none d-md-block">
                             <i class="fs-3 bi bi-quote"></i>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 
@@ -144,7 +144,7 @@
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="member">
-                            <div class="pic"><img src="{{ asset('assets/images/homme_profil.jpeg') }}" class="img-fluid"
+                            <div class="pic"><img src="{{ asset('assets/images/homm_profil.jpeg') }}" class="img-fluid"
                                     alt="" width="70%"></div>
                             <div class="member-info">
                                 <h4>Pr Edem KOLEDJI</h4>
@@ -156,7 +156,7 @@
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="member">
-                            <div class="pic"><img src="assets/images/homme_profil.jpeg" class="img-fluid" alt="" width="70%">
+                            <div class="pic"><img src="assets/images/homm_profil.jpeg" class="img-fluid" alt="" width="70%">
                             </div>
                             <div class="member-info">
                                 <h4>Dr-Ing. Komlan LOLO</h4>
