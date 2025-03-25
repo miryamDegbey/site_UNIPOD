@@ -32,25 +32,25 @@
 <div class="container_serv">
   <!-- Grande div principale -->
   <div class="main-content">
-      <img src="{{ asset('assets/images/serv1.jpg') }}" alt="Grande image" class="large-img">
-      <div class="text-content">
-          <h2>Laboratoire énergie Renouvelable</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi sit vel praesentium provident rem itaque aut deleniti ab impedit nostrum facere culpa blanditiis accusamus cum mollitia et eligendi? Consectetur!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vero veritatis ducimus molestias dolorum molestiae, fugiat culpa numquam eligendi odit pariatur ipsum incidunt veniam. Dignissimos deleniti suscipit sit harum dolorem!
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus repudiandae ex expedita libero enim porro unde nihil, ipsum minima dolor, saepe qui voluptas iure voluptatem at veritatis. Rem, harum maiores!
-          </p>
-      </div>
-  </div>
+    <img src="{{ asset('assets/images/labo-agro.png') }}" alt="Grande image" class="large-img">
+    <div class="text-content">
+        <h2>Laboratoire de Technologie Agro-alimentaire</h2>
+        <p>
+          Le Laboratoire de Technologie et Agroalimentaire d'UniPod Togo est un espace dédié à l'innovation dans le domaine de la transformation alimentaire et des technologies agro-industrielles. Il offre aux chercheurs, entrepreneurs et étudiants l'opportunité d'explorer, concevoir et tester des solutions pour améliorer la production, la conservation et la transformation des produits agricoles.
 
+          Ce laboratoire met à disposition des équipements modernes pour l'analyse de la qualité des aliments, le développement de nouveaux produits et l'optimisation des procédés de fabrication. Il favorise également l'utilisation de technologies durables pour garantir une production respectueuse de l’environnement et répondre aux défis de la sécurité alimentaire.
+        </p>
+    </div>
+</div>
   <!-- Deux petites divs à droite -->
   <div class="side-content">
       <div class="small-box">
-          <img src="{{ asset('assets/images/serv1.jpg') }}" alt="Petite image 1">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ex, ut sed, facere perferendis quisquam voluptate adipisci enim ab quos accusamus eius. Vel ut nulla, porro amet doloremque consequatur repellat!</p>
+          <img src="{{ asset('assets/images/agro-photo.jpg') }}" alt="Petite image 1">
+          <p>Ce dispositif permet de capter l’énergie solaire et de la convertir en électricité grâce à des cellules photovoltaïques. Il est utilisé énergétique des installations solaires et pour former les étudiants à l’ingénierie solaire..</p>
       </div>
       <div class="small-box">
-          <img src="{{ asset('assets/images/serv1.jpg') }}" alt="Petite image 2">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quaerat dignissimos, nam amet cumque optio quod eaque commodi cum eum ipsa possimus. Quia reiciendis iure libero perspiciatis consectetur, rem excepturi.</p>
+          <img src="{{ asset('assets/images/dispo.jpg') }}" alt="Petite image 2">
+          <p>Ce Dispositif permet d'alimenteret de fournir l'électicité en quantité. Lorem ipsum dolor sit amet consectetur.</p>
       </div>
   </div>
 </div>

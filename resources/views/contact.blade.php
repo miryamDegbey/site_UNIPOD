@@ -11,7 +11,7 @@
 
       <style>
         #starter-section {
-            background-image: url('{{ asset('assets/images/bloc2.png') }}');
+            background-color:#1d9dd9b5 ;
             background-size: cover;
             color: white;
             

@@ -12,8 +12,11 @@
       <style>
         
         #starter-section {
-            background-color: #1d9dd9;
-            background-size: cover;
+            background-image: 
+                    linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.418)),
+                    url('{{ asset('assets/images/barnner5.jpg') }}'),linear-gradient(red, black, white);
+                    background-size: cover;
+                    color: white;   
         }
     </style>
 
@@ -31,9 +34,9 @@
 
 
     <div class="col-lg-8 support_program" data-aos="fade-up" data-aos-delay="200">
-      <img src="{{ asset('assets/images/project-proto.jpg') }}" alt="Image descriptive" class="img-fluid services-img">
+      <img src="{{ asset('assets/images/devi-preneur.jpg') }}" alt="Image descriptive" class="img-fluid services-img">
       
-      <h3>Le projet Mega-Tech</h3>
+      <h3>Le projet Dévi preneur</h3>
   
       <p>
         Vous êtes régulièrement inscrit-e-s dans une université ou dans une école supérieure au Togo et vous avez des idées innovantes à concrétiser ? Vous cherchez à booster vos compétences techniques dans un environnement 100% pratique et innovant ? Les portes de L’ UniPod Togo vous sont ouvertes !
@@ -53,6 +56,20 @@
         L'abonnement se fait sur ce lien et sera à 10 000 FCFA *pour toute l'année
       </p>
   </div>
+
+
+  
+    
+    <div class="col-sm-6  mx-auto" >
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"> </h5>
+          <p class="card-text">Etes-vous intéressé par ce programme, veuillez nous contacter.</p>
+          <a href="{{ route('contact') }}" class="btn btn-primary">Nous contacter</a>
+        </div>
+      </div>
+    </div>
+ 
 
 
   <section class="project-section container py-5">
@@ -84,7 +101,7 @@
                 </div>
             </div>
         </div> --}}
-        <div class="col-md-8 col-lg-3 mb-4">
+        {{-- <div class="col-md-8 col-lg-3 mb-4">
             <div class="card">
                 <img src="{{ asset('assets/images/devi-preneur.jpg') }}" class="card-img-top img-fluid" alt="Projet">
                 <div class="card-body">
@@ -92,7 +109,7 @@
                     <a class="btn btn-outline-primary" href="{{ Route('project_detail_3') }}">Lire plus</a>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </section>
 

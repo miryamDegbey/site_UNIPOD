@@ -32,7 +32,7 @@
 <div class="container_serv">
   <!-- Grande div principale -->
   <div class="main-content">
-      <img src="{{ asset('assets/images/serv1.jpg') }}" alt="Grande image" class="large-img">
+      <img src="{{ asset('assets/images/labo.jpg') }}" alt="Grande image" class="large-img">
       <div class="text-content">
           <h2>Laboratoire énergie Renouvelable</h2>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi sit vel praesentium provident rem itaque aut deleniti ab impedit nostrum facere culpa blanditiis accusamus cum mollitia et eligendi? Consectetur!
@@ -43,7 +43,7 @@
   </div>
 
   <!-- Deux petites divs à droite -->
-  <div class="side-content">
+  {{-- <div class="side-content">
       <div class="small-box">
           <img src="{{ asset('assets/images/serv1.jpg') }}" alt="Petite image 1">
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ex, ut sed, facere perferendis quisquam voluptate adipisci enim ab quos accusamus eius. Vel ut nulla, porro amet doloremque consequatur repellat!</p>
@@ -52,7 +52,7 @@
           <img src="{{ asset('assets/images/serv1.jpg') }}" alt="Petite image 2">
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quaerat dignissimos, nam amet cumque optio quod eaque commodi cum eum ipsa possimus. Quia reiciendis iure libero perspiciatis consectetur, rem excepturi.</p>
       </div>
-  </div>
+  </div> --}}
 </div>
 
 

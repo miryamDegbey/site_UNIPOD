@@ -8,8 +8,10 @@
     #starter-section {
         background-image:
         linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)), 
-        url('{{ asset('assets/images/photo_about.png') }}');
+        url('{{ asset('assets/images/barnner-labo.jpg') }}');
         background-size: cover;
+        
+        
        
       
     }

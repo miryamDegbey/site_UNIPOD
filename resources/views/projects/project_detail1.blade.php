@@ -12,8 +12,11 @@
       <style>
         
         #starter-section {
-            background-color: #1d9dd9;
-            background-size: cover;
+            background-image: 
+                    linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.418)),
+                    url('{{ asset('assets/images/barnner5.jpg') }}'),linear-gradient(red, black, white);
+                    background-size: cover;
+                    color: white;   
         }
     </style>
 
@@ -33,7 +36,7 @@
     <div class="col-lg-8 support_program" data-aos="fade-up" data-aos-delay="200">
       <img src="{{ asset('assets/images/project-proto.jpg') }}" alt="Image descriptive" class="img-fluid services-img">
       
-      <h3>Le projet Mega-Tech</h3>
+      <h3>Abonnement du laboratoire de UniPod</h3>
   
       <p>
         Vous êtes régulièrement inscrit-e-s dans une université ou dans une école supérieure au Togo et vous avez des idées innovantes à concrétiser ? Vous cherchez à booster vos compétences techniques dans un environnement 100% pratique et innovant ? Les portes de L’ UniPod Togo vous sont ouvertes !

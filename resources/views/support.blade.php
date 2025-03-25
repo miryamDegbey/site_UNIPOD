@@ -12,11 +12,14 @@
       <style>
         
         #starter-section {
-            background-color: #1d9dd9;
-            background-size: cover;
+            background-image: 
+                    linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.418)),
+                    url('{{ asset('assets/images/barnner5.jpg') }}'),linear-gradient(red, black, white);
+                    background-size: cover;
+                    color: white;   
         }
     </style>
-
+ 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         
@@ -31,7 +34,7 @@
 
 
     <div class="col-lg-8 support_program" data-aos="fade-up" data-aos-delay="200">
-      <img src="{{ asset('assets/images/project-proto.jpg') }}" alt="Image descriptive" class="img-fluid services-img">
+      <img src="{{ asset('assets/images/mega-tech.jpg') }}" alt="Image descriptive" class="img-fluid services-img">
       
       <h3>Le projet Mega-Tech</h3>
   
@@ -87,7 +90,7 @@
         <div class="col-md-8 col-lg-3 mb-4">
             <div class="card">
                 <img src="{{ asset('assets/images/devi-preneur.jpg') }}" class="card-img-top img-fluid" alt="Projet">
-                <div class="card-body">
+                <div class="card-body text-center">
                     <p>Ce projet permet aux enfants de 05 à 15 ans de pouvoir faire des travaux pratiques.</p>
                     <a class="btn btn-outline-primary" href="{{ Route('project_detail_3') }}">Lire plus</a>
                 </div>

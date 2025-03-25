@@ -27,7 +27,7 @@
                 <div data-aos="fade-right" class="col-md-6">
                     <div class="position-relative">
                         <div class="rounded-3 overflow-hidden">
-                            <img src="{{ asset('assets/images/photo_directeur.jpg') }}" width="70%" 
+                            <img src="{{ asset('assets/images/directeur-photo.jpg') }}" width="70%" 
                                  alt="Directeur Général" 
                                  class="img-fluid rounded-3">
                         </div>
@@ -44,14 +44,11 @@
     
                     <p>Chers collaborateurs et partenaires,</p>
                     <p>
-                        C'est avec une grande fierté que je m'adresse à vous aujourd'hui. Notre organisation 
-                        continue de croître et d'innover, portée par l'engagement et le talent de chacun 
-                        d'entre vous. Notre vision est claire : devenir un leader dans notre secteur tout 
-                        en maintenant nos valeurs d'excellence, d'innovation et d'intégrité.
+                        Le pôle Universitaire et de Technologie est chargé d'identifier et de sélectionner des projets pour transformer les idées riches, tout en préservant notre patrimoine intellectuelle.
                     </p>
                     <p>
                         Ensemble, nous construisons un avenir prometteur, où chaque défi est une opportunité 
-                        de nous surpasser et de créer de la valeur pour nos clients et notre société.
+                        de nous surpasser et de créer un cadre d'apprentissage instructive pour correspondant à tout type de profil.
                     </p>
     
                   
@@ -62,7 +59,7 @@
         <section class="presentation">
             <div class="about_items">
                 <div class="items_rigth">
-                    <img src="{{ asset('assets/images/about.jpg') }} " style="border-radius: 40px" width="400" alt="">
+                    <img src="{{ asset('assets/images/about1.jpg') }} " style="border-radius: 40px" width="400" alt="">
                 </div>
                 <div class="items_left">
                     <ul>
@@ -91,7 +88,7 @@
 
             <div class="about_items">
                 <div class="items_rigth">
-                    <img src="{{ asset('assets/images/mission.jpeg') }} " style="border-radius: 40px" width="400" alt="" height="300" width="30%">
+                    <img src="{{ asset('assets/images/mission.jpg') }} " style="border-radius: 40px" width="400" alt="" height="300" width="80%">
                 </div>
                 <div class="items_left">
                     <ul>
@@ -108,7 +105,7 @@
 
             <div class="about_items">
                 <div class="items_rigth">
-                    <img src="{{ asset('assets/images/valeur.jpeg') }} " style="border-radius: 40px" width="400" alt="" height="270">
+                    <img src="{{ asset('assets/images/valeur1.jpeg') }} " style="border-radius: 40px" width="400" alt="" height="270">
                 </div>
                 <div class="items_left">
                     <ul>
@@ -144,11 +141,11 @@
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="member">
-                            <div class="pic"><img src="{{ asset('assets/images/homm_profil.jpeg') }}" class="img-fluid"
+                            <div class="pic"><img src="{{ asset('assets/images/lolo-photo.jpg') }}" class="img-fluid"
                                     alt="" width="70%"></div>
                             <div class="member-info">
-                                <h4>Pr Edem KOLEDJI</h4>
-                                <span>Directeur Général Unipod</span>
+                                <h4>Dr-Ing. Komlan LOLO</h4>
+                                <span>Chef Division des Services et Logistiques à Unipod Togo</span>
                                 
                             </div>
                         </div>
@@ -156,10 +153,10 @@
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="member">
-                            <div class="pic"><img src="assets/images/homm_profil.jpeg" class="img-fluid" alt="" width="70%">
+                            <div class="pic"><img src="assets/images/jonne.jpg" class="img-fluid" alt="" width="70%">
                             </div>
                             <div class="member-info">
-                                <h4>Dr-Ing. Komlan LOLO</h4>
+                                <h4>GNAGLIGA Bakoulpama</h4>
                                 <span>Chef Division des Services et Logistiques à Unipod Togo</span>
                                 
                             </div>

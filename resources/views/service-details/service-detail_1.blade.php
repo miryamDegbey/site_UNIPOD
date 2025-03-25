@@ -32,26 +32,29 @@
 <div class="container_serv">
   <!-- Grande div principale -->
   <div class="main-content">
-      <img src="{{ asset('assets/images/labo-meca.png') }}" alt="Grande image" class="large-img">
-      <div class="text-content">
+      <img src="{{ asset('assets/images/labo-meca.png') }}" alt="Grande image" class="large-img" >
+      <div class="text-content" style="margin-bottom : 50px;">
           <h2>Laboratoire énergie Renouvelable</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, quasi sit vel praesentium provident rem itaque aut deleniti ab impedit nostrum facere culpa blanditiis accusamus cum mollitia et eligendi? Consectetur!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit vero veritatis ducimus molestias dolorum molestiae, fugiat culpa numquam eligendi odit pariatur ipsum incidunt veniam. Dignissimos deleniti suscipit sit harum dolorem!
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus repudiandae ex expedita libero enim porro unde nihil, ipsum minima dolor, saepe qui voluptas iure voluptatem at veritatis. Rem, harum maiores!
+          <p class="lh-lg">Le Laboratoire Énergie Renouvelable d'UniPod Togo est un espace dédié à l'innovation et à la recherche sur les solutions énergétiques durables. Il permet aux entrepreneurs, étudiants et chercheurs d'explorer, concevoir et tester des technologies basées sur les énergies renouvelables telles que le solaire, l'éolien et la biomasse. Grâce à cet environnement collaboratif, UniPod Togo accompagne le développement de projets visant à favoriser l’accès à une énergie propre et accessible pour tous.
           </p>
       </div>
   </div>
 
   <!-- Deux petites divs à droite -->
   <div class="side-content">
-      <div class="small-box">
-          <img src="{{ asset('assets/images/labo-meca.png') }}" alt="Petite image 1">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus ex, ut sed, facere perferendis quisquam voluptate adipisci enim ab quos accusamus eius. Vel ut nulla, porro amet doloremque consequatur repellat!</p>
+    <div class="card" style="width: 16rem ; height: 18rem; background-color:#19555529; margin-bottom:50px;">
+      <img src="{{ asset('assets/images/equip.jpg') }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
       </div>
-      <div class="small-box">
-          <img src="{{ asset('assets/images/labo-meca.png') }}" alt="Petite image 2">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quaerat dignissimos, nam amet cumque optio quod eaque commodi cum eum ipsa possimus. Quia reiciendis iure libero perspiciatis consectetur, rem excepturi.</p>
+    </div>
+    <div class="card" style="width: 16rem ; height: 20rem; background-color:#19555529">
+      <img src="{{ asset('assets/images/labo-meca.png') }}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Ce Dispositif permet d'alimenteret de fournir l'électicité en quantité. Lorem ipsum dolor sit amet consectetur.</p>
       </div>
+    </div>
+      
   </div>
 </div>
 

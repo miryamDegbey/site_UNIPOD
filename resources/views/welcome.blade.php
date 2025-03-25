@@ -9,7 +9,7 @@
         <!-- Swiper -->
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner6.jpeg') }}');">
+                <div class="swiper-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.371), rgba(0, 0, 0, 0.295)), url('{{ asset('assets/images/barner-photo1.jpg') }}');">
                     <div class="contenu">
                         <div class="vertical-bar"></div>
                         <div>
@@ -33,7 +33,7 @@
                 </div>
 
                 <!-- Slide 3 -->
-                <div class="swiper-slide" style="background-image: url('{{ asset('assets/images/photo_banner8.jpeg') }}');">
+                <div class="swiper-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.371), rgba(0, 0, 0, 0.295)), url('{{ asset('assets/images/barner-photo.jpg') }}');">
                 {{-- linear-gradient(rgba(0, 0, 0, 0.449), rgba(0, 0, 0, 0.316)),  --}}
                     <div class="contenu">
                         <div class="vertical-bar"></div>
@@ -147,7 +147,7 @@ La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, a
 
   </section>
 
-  <div class="container_mission py-5">
+<div class="container_mission py-5">
     <h2>Ambitions et Objectifs</h2>
     <p>Nos Ambitions et Objectifs s'alignent comme suit:</p>
     <div class="row justify-content-center">
@@ -360,7 +360,7 @@ function toggleDropdown(id) {
           <h4 class="note_book">Notre Newsletter</h4>
           <p class="note">Inscrivez-vous à notre newsletter</p>
           <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="newsletter-form"><input type="email" name="email" placeholder="Veuillez saisir votre mail"><input type="submit" value="Subscribe" ></div>
             <div class="loading">Loading</div>
             <div class="error-message"></div>
             <div class="sent-message">Your subscription request has been sent. Thank you!</div>
