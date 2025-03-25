@@ -184,48 +184,65 @@ La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, a
         </div>
     </div>
 </div>
+<style>
+    .card-img-top {
+    height: 300px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+.project-section .card{
+    border: none; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s; 
+    cursor: pointer
+}
 
+.project-section .card:hover{
+    transform: translateY(-10px); 
+}
+</style>
 
-  <section class="project-section container py-5">
+<section class="project-section container py-5">
     <div class="row">
         <div class="col-md-6 col-lg-3 mb-4">
             <div class="card">
-                <img src="{{ asset('assets/images/mega-tech.jpg') }}" class="card-img-top img-fluid" alt="Projet">
+                <img src="{{ asset('assets/images/mega-tech.jpg') }}" class="card-img-top img-fluid" alt="Projet Mega-tech">
                 <div class="card-body">
-                    <p class="text-dark">Le projet Mega-tech de Unipod vous offre un accès exclusive à des équipements pour votre prototypage.</p>
+                    <p class="text-dark">Le projet Mega-tech de Unipod vous offre un accès exclusif à des équipements pour votre prototypage.</p>
                     <a class="btn btn-outline-primary" href="{{ Route('support') }}">Lire plus</a>
                 </div>
             </div>
         </div>
         <div class="col-md-6 col-lg-3 mb-4">
             <div class="card">
-                <img src="{{ asset('assets/images/project-proto.jpg') }}" class="card-img-top img-fluid" alt="Projet">
+                <img src="{{ asset('assets/images/project-proto.jpg') }}" class="card-img-top img-fluid" alt="Projet Project-Proto">
                 <div class="card-body">
-                    <p class="text-dark">Ce projet permet aux étudiants des écoles supérieures et universitaires de pouvoir faire des travaux pratiques.</p>
+                    <p class="text-dark">Ce projet permet aux étudiants des écoles supérieures et universitaires de réaliser des travaux pratiques innovants.</p>
                     <a class="btn btn-outline-primary" href="{{ Route('project_detail_1') }}">Lire plus</a>
                 </div>
             </div>
         </div>
         <div class="col-md-6 col-lg-3 mb-4">
             <div class="card">
-                <img src="{{ asset('assets/images/projet-enf.jpg') }}" class="card-img-top img-fluid" alt="Projet">
+                <img src="{{ asset('assets/images/projet-enf.jpg') }}" class="card-img-top img-fluid" alt="Projet Enfance">
                 <div class="card-body">
-                    <p class="text-dark">Ce projet permet aux enfants de 05 à 15 ans de pouvoir faire des travaux pratiques. Ce projet permet aux enfants de 05 à 15 ans de pouvoir faire des travaux pratiques.</p>
+                    <p class="text-dark">Destiné aux enfants de 5 à 15 ans, ce projet leur permet d’acquérir des compétences pratiques adaptées à leur âge.</p>
                     <a class="btn btn-outline-primary" href="{{ Route('project_detail_2') }}">Lire plus</a>
                 </div>
             </div>
         </div>
-        <div class="col-md-8 col-lg-3 mb-4">
+        <div class="col-md-6 col-lg-3 mb-4">
             <div class="card">
-                <img src="{{ asset('assets/images/devi-preneur.jpg') }}" class="card-img-top img-fluid" alt="Projet">
+                <img src="{{ asset('assets/images/devi-preneur.jpg') }}" class="card-img-top img-fluid" alt="Projet Devi-preneur">
                 <div class="card-body">
-                    <p>Ce projet permet aux enfants de 05 à 15 ans de pouvoir faire des travaux pratiques.</p>
+                    <p class="text-dark">Un programme unique qui encourage l’entrepreneuriat dès le plus jeune âge à travers des activités interactives.</p>
                     <a class="btn btn-outline-primary" href="{{ Route('project_detail_3') }}">Lire plus</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
   <section class="partner-section swiper2">
     
