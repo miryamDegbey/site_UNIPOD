@@ -149,7 +149,7 @@ box-sizing: border-box
 }
 
 .swiper-slide img {
-    max-width: 150px; /* Ajuste la taille des images */
+    max-width: 70px; 
     height: auto;
 }
 
@@ -607,16 +607,16 @@ box-shadow:  5px 5px 32px #e8e8e8,
     /* newsletter */
 
    .container .note_book {
-        font-size: 40px !important;
-        font-family: 'Pacifico';
-        color: #000000;
+        font-size: 30px !important;
+        font-family: 'Montserrat', sans-serif !important;
+        color: #FFFFFF;
     }
 
     .container .note {
-      font-size: 20px !important;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600;
-      color: #000000;
+      font-size: 15px !important;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #ffffff;
     }
 
     /*  mission et ambition */
@@ -631,15 +631,16 @@ box-shadow:  5px 5px 32px #e8e8e8,
       text-align: center;
       font-family: 'Poppins', sans-serif;
       font-weight: 700;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
   }
 
   .container_mission p {
-    font-size: 18px;
+    font-size: 16px;
       text-align: center;
       font-family: 'Poppins', sans-serif;
-      margin-bottom: 25px;
+      margin-bottom: 30px;
       color:#000000c1;
+      padding-top: -30px !important;
      
 
   }
@@ -683,6 +684,37 @@ box-shadow:  5px 5px 32px #e8e8e8,
       list-style: none !important;
 
   }
+
+  .ambition { 
+    display: flex;
+    column-gap: 15px;
+    padding-inline: 100px;
+  }
+
+  .actu {
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 30px;
+    color: #000000;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .actu_p {
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    color: #000000d5;
+    font-family: 'Poppins';
+  }
+
+  .img-pnud {
+    width: 80px;
+    height: 80px;
+  }
+
+  
 
   
     

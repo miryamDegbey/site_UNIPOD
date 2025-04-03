@@ -27,7 +27,7 @@
                 <div data-aos="fade-right" class="col-md-6">
                     <div class="position-relative">
                         <div class="rounded-3 overflow-hidden">
-                            <img src="{{ asset('assets/images/directeur-photo.jpg') }}" width="70%" 
+                            <img src="{{ asset('assets/images/photo_directeur.jpg') }}" width="70%" 
                                  alt="Directeur Général" 
                                  class="img-fluid rounded-3">
                         </div>
@@ -39,7 +39,7 @@
                 
                 <div data-aos="zoom-in-left" class="col-md-6">
                     <h2 class="fw-semi-bold text-dark">Mot du Directeur</h2>
-                    <p class="text-dark fw-bold fs-5">Professeur Edem KOLEDJI</p>
+                    <p class="text-dark fw-bold fs-5">Professeur Edem KOLEDZI</p>
                     <p class="text-muted">Directeur Général de UniPod Togo</p>
     
                     <p>Chers collaborateurs et partenaires,</p>

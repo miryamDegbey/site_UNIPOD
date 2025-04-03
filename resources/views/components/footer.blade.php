@@ -11,7 +11,7 @@
           <div class="footer-contact pt-3">
             <p>Université de Lomé</p>
             <p>En face de l'Ecole Polytechnique de Lomé</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+228 99470606</span></p>
+            <p class="mt-3"><strong>Téléphone:</strong> <span>+228 99470606</span></p>
             <p><strong>Email:</strong> <span>unipodtogo@gmail.com</span></p>
           </div>
         </div>
@@ -65,7 +65,7 @@
     </div> --}}
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>2025 | Développée par</span> <strong class="px-1 sitename">Miryam DEGBEY</strong> <span></span></p>
+      <p>© <span>2025 | Développé par</span> <strong class="px-1 sitename">Miryam DEGBEY</strong> <span></span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->

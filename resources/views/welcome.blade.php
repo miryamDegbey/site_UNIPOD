@@ -80,7 +80,7 @@
         <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="300">
           <div class="icon-box">
             <div class="icon"><i class="bi bi-box-seam text-secondary fs-1"></i>  </div>
-            <h4 class="title"><a href="{{ route('service') }}">Développement de produits et propriété intellectuelle</a></h4>
+            <h4 class="title"><a href="{{ route('service') }}">Valorisation des resultats et support en propriété intellectuelle</a></h4>
             <p class="description">UniPod transforme les prototypes en succès.</p>
           </div>
         </div>
@@ -89,6 +89,37 @@
           <div class="icon-box">
             <div class="icon"><i class="bi bi-lightbulb text-secondary fs-1"></i>  </div>
             <h4 class="title"><a href="{{ route('service') }}">Incubation et Accélération des Startups </a></h4>
+            <p class="description">Créons, Innovons et Transformons.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-lightbulb text-secondary fs-1"></i>  </div>
+            <h4 class="title"><a href="{{ route('service') }}">Prototypage et Modélisation</a></h4>
+            <p class="description">Créons, Innovons et Transformons.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-lightbulb text-secondary fs-1"></i>  </div>
+            <h4 class="title"><a href="{{ route('service') }}">Espace créatif</a></h4>
+            <p class="description">Créons, Innovons et Transformons.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-lightbulb text-secondary fs-1"></i>  </div>
+            <h4 class="title"><a href="{{ route('service') }}">Espace multimédias</a></h4>
+            <p class="description">Créons, Innovons et Transformons.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
+          <div class="icon-box">
+            <div class="icon"><i class="bi bi-lightbulb text-secondary fs-1"></i>  </div>
+            <h4 class="title"><a href="{{ route('service') }}">Espace de Coworking</a></h4>
             <p class="description">Créons, Innovons et Transformons.</p>
           </div>
         </div>
@@ -151,7 +182,7 @@ La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, a
     <h2>Ambitions et Objectifs</h2>
     <p>Nos Ambitions et Objectifs s'alignent comme suit:</p>
     <div class="row justify-content-center">
-        <div class="col-md-6">
+        <div class="ambition">
             <!-- Service 1 -->
             <div class="service-box">
                 <div class="service-title">
@@ -202,7 +233,11 @@ La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, a
 }
 </style>
 
+
+<h2 class="actu">Nos actualités</h2>
+<p class="actu_p">Nos récents actualités.</p>
 <section class="project-section container py-5">
+    
     <div class="row">
         <div class="col-md-6 col-lg-3 mb-4">
             <div class="card">
@@ -247,11 +282,11 @@ La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, a
   <section class="partner-section swiper2">
     
     <div class="swiper-wrapper" class="d-flex justify-content-center align-items-center">
-        <div class="swiper-slide"><img src="{{ asset('assets/images/ul.jpeg') }}" alt="Université de Lomé"></div>
-        <div class="swiper-slide"><img src="{{ asset('assets/images/pnud.png') }}" alt="Logo du PNUD"></div>
-        <div class="swiper-slide"><img src="{{ asset('assets/images/cervida.jpeg') }}" alt="Logo de Cervida" ></div>
-        <div class="swiper-slide"><img src="{{ asset('assets/images/impact.jpeg') }}" alt="Logo de Impact"></div>
-        <div class="swiper-slide"><img src="{{ asset('assets/images/tombuktoo.jpeg') }}" alt="Logo de Impact"></div>
+        <div class="swiper-slide"><a href="#"><img src="{{ asset('assets/images/ul.jpeg') }}" alt="Université de Lomé"></a></div>
+        <div class="swiper-slide"><a href="#"><img src="{{ asset('assets/images/pnud.png') }}" alt="Logo du PNUD" class="img-pnud"></a></div>
+        <div class="swiper-slide"><a href="#"><img src="{{ asset('assets/images/cervida.jpeg') }}" alt="Logo de Cervida" width="70%" ></a></div>
+        <div class="swiper-slide"><a href="#"><img src="{{ asset('assets/images/impact.jpeg') }}" alt="Logo de Impact" width="70%"></a></div>
+        <div class="swiper-slide"><a href="#"><img src="{{ asset('assets/images/tombuktoo.jpeg') }}" alt="Logo de Impact" width="80%"></a></div>
     </div>
 </section>
 
@@ -360,11 +395,12 @@ function toggleDropdown(id) {
 
 <style>
     .footer-newsletter {
-        background-image: url('{{ asset('assets/images/newsletter.png') }}') ;
+        background-image: url('{{ asset('assets/images/newslette.png') }}') ;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         color: white; with:50% ;
+        background-color: #1d9dd9 !important;
         
         
     }
@@ -377,7 +413,7 @@ function toggleDropdown(id) {
           <h4 class="note_book">Notre Newsletter</h4>
           <p class="note">Inscrivez-vous à notre newsletter</p>
           <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email" placeholder="Veuillez saisir votre mail"><input type="submit" value="Subscribe" ></div>
+            <div class="newsletter-form"><input type="email" name="email" placeholder="Veuillez saisir votre mail"><input type="submit" value="S'inscrire" ></div>
             <div class="loading">Loading</div>
             <div class="error-message"></div>
             <div class="sent-message">Your subscription request has been sent. Thank you!</div>

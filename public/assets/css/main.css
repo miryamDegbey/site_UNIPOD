@@ -314,10 +314,11 @@
       
     }
   
-    .navmenu li:last-child a {
-      /* padding-right: 0; */
-    }
-
+<<<<<<< Tabnine <<<<<<<
+    .navmenu li:last-child a {//+
+      padding-right: 0;//+
+    }//+
+>>>>>>> Tabnine >>>>>>>// {"conversationId":"83d6c1af-f408-4c87-b913-06a72a604da9","source":"instruct"}    
     .navmenu a:hover{
       padding: 8px 25px;
       /* font-weight: bold; */
