@@ -37,4 +37,9 @@ class PagesController extends Controller
 
     }
 
+    public function Equip(){
+        return view('equip');
+
+    }
+
 }

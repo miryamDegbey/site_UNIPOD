@@ -89,7 +89,8 @@ box-sizing: border-box
 
 .partner-section{
     display: flex;
-    flex-direction: row;
+    gap: 10px !important;
+   
 }
 
 .dropdown-content {
@@ -149,12 +150,22 @@ box-sizing: border-box
 }
 
 .swiper-slide img {
-    max-width: 70px; 
+    max-width: 500px; 
     height: auto;
+    display: block;
 }
+
 
 .partner-section .swiper-slide{
     box-shadow: none;
+
+   
+}
+
+.btn-outline-primary {
+  border: 2px solid #1d9dd9;
+  color: #1d9dd9;
+  background-color: white;
 }
 
 
@@ -714,7 +725,7 @@ box-shadow:  5px 5px 32px #e8e8e8,
     height: 80px;
   }
 
-  
+
 
   
     

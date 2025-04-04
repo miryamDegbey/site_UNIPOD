@@ -35,7 +35,8 @@
             <li><i class="bi bi-chevron-right"></i> <a href="https://univ-lome.tg/">Université de Lomé</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="https://www.undp.org/fr/togo">Pnud</a></li>
             <li><i class="bi bi-chevron-right"></i> <a href="https://www.undp.org/fr/togo">Timbuktoo</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#"></a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://www.cervida-togo.org/">Cervida-Dounedon</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://www.afd.fr/fr/carte-des-projets/projet-impact-un-partenariat-academique-pour-accompagner-le-developpement-de-lecole-polytechnique-de-lome">Projet Impact</a></li>
           </ul>
         </div>
 

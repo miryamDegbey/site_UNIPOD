@@ -79,7 +79,7 @@
 
         <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="300">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-box-seam text-secondary fs-1"></i>  </div>
+            <div class="icon"><i class="bi bi-file-earmark-text text-secondary fs-1 me-2"></i> </div>
             <h4 class="title"><a href="{{ route('service') }}">Valorisation des resultats et support en propriété intellectuelle</a></h4>
             <p class="description">UniPod transforme les prototypes en succès.</p>
           </div>
@@ -95,30 +95,30 @@
 
         <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-lightbulb text-secondary fs-1"></i>  </div>
+            <div class="icon"><i class="bi bi-box-seam text-secondary fs-1 me-2"></i></div>
             <h4 class="title"><a href="{{ route('service') }}">Prototypage et Modélisation</a></h4>
-            <p class="description">Créons, Innovons et Transformons.</p>
+            <p class="description"> Un espace équipé pour concevoir, tester et affiner les idées à travers des maquettes et des modèles avant leur mise en production. </p>
           </div>
         </div>
         <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-lightbulb text-secondary fs-1"></i>  </div>
+            <div class="icon"><i class="bi bi-palette text-secondary fs-1 me-2"></i></div>
             <h4 class="title"><a href="{{ route('service') }}">Espace créatif</a></h4>
-            <p class="description">Créons, Innovons et Transformons.</p>
+            <p class="description">Ce service offre un espace de reflexion et d'innocvation pour la concrétisation des idées en projets innovants.</p>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-lightbulb text-secondary fs-1"></i>  </div>
+            <div class="icon"><i class="bi bi-camera-video text-secondary fs-1 me-2"></i></div>
             <h4 class="title"><a href="{{ route('service') }}">Espace multimédias</a></h4>
-            <p class="description">Créons, Innovons et Transformons.</p>
+            <p class="description">Ce service offre un environnement de technique pour les produits ayant trait aux médias.</p>
           </div>
         </div>
 
         <div class="col-md-6 col-lg-3" data-aos="zoom-out" data-aos-delay="400">
           <div class="icon-box">
-            <div class="icon"><i class="bi bi-lightbulb text-secondary fs-1"></i>  </div>
+            <div class="icon"><i class="bi bi-people text-secondary fs-1 me-2"></i></div>
             <h4 class="title"><a href="{{ route('service') }}">Espace de Coworking</a></h4>
             <p class="description">Créons, Innovons et Transformons.</p>
           </div>
@@ -282,12 +282,19 @@ La mise en place de l’UniPod Togo devrait faire de l’Université de Lomé, a
   <section class="partner-section swiper2">
     
     <div class="swiper-wrapper" class="d-flex justify-content-center align-items-center">
-        <div class="swiper-slide"><a href="#"><img src="{{ asset('assets/images/ul.jpeg') }}" alt="Université de Lomé"></a></div>
-        <div class="swiper-slide"><a href="#"><img src="{{ asset('assets/images/pnud.png') }}" alt="Logo du PNUD" class="img-pnud"></a></div>
-        <div class="swiper-slide"><a href="#"><img src="{{ asset('assets/images/cervida.jpeg') }}" alt="Logo de Cervida" width="70%" ></a></div>
-        <div class="swiper-slide"><a href="#"><img src="{{ asset('assets/images/impact.jpeg') }}" alt="Logo de Impact" width="70%"></a></div>
-        <div class="swiper-slide"><a href="#"><img src="{{ asset('assets/images/tombuktoo.jpeg') }}" alt="Logo de Impact" width="80%"></a></div>
+        <div class="swiper-slide"><a href="https://univ-lome.tg/"><img src="{{ asset('assets/images/ul.jpeg') }}" alt="Université de Lomé"></a></div>
+        <div class="swiper-slide"><a href="https://www.undp.org/fr/togo"><img src="{{ asset('assets/images/pnud.png') }}" alt="Logo du PNUD" class="img-pnud"></a></div>
+        <div class="swiper-slide"><a href="https://www.cervida-togo.org/"><img src="{{ asset('assets/images/cervida.jpeg') }}" alt="Logo de Cervida" ></a></div>
+        <div class="swiper-slide"><a href="https://www.afd.fr/fr/carte-des-projets/projet-impact-un-partenariat-academique-pour-accompagner-le-developpement-de-lecole-polytechnique-de-lome"><img src="{{ asset('assets/images/impact.jpeg') }}" alt="Logo de Impact"></a></div>
+        <div class="swiper-slide"><a href="https://www.undp.org/africa/projects/timbuktoo"><img src="{{ asset('assets/images/tombuktoo.jpeg') }}" alt="Logo de Impact"></a></div>
     </div>
+    {{-- <div class="row" class="d-flex justify-content-center align-items-center">
+        <div class="col"><img src="{{ asset('assets/images/ul.jpeg') }}" alt="Université de Lomé"></div>
+        <div class="col"><img src="{{ asset('assets/images/pnud.png') }}" alt="Logo du PNUD" class="img-pnud"></div>
+        <div class="col"><a href="#"><img src="{{ asset('assets/images/cervida.jpeg') }}" alt="Logo de Cervida" ></a></div>
+        <div class="col"><a href="#"><img src="{{ asset('assets/images/impact.jpeg') }}" alt="Logo de Impact"></a></div>
+        <div class="col"><a href="#"><img src="{{ asset('assets/images/tombuktoo.jpeg') }}" alt="Logo de Impact"></a></div>
+      </div> --}}
 </section>
 
 

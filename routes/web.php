@@ -15,6 +15,7 @@ Route::get('/support', [PagesController::class,'Support'])->name('support');
 Route::get('/space', [PagesController::class,'Space'])->name('space');
 Route::get('/services', [PagesController::class,'Service'])->name('service');
 Route::get('/programs', [ProgramController::class,'Program'])->name('programs');
+Route::get('/equip', [PagesController::class,'Equip'])->name('equip');
 
 Route::get('/contact', [PagesController::class,'Contact'])->name('contact');
 

@@ -139,7 +139,7 @@
 
                 <div class="row gy-5">
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="member">
                             <div class="pic"><img src="{{ asset('assets/images/lolo-photo.jpg') }}" class="img-fluid"
                                     alt="" width="70%"></div>
@@ -151,12 +151,34 @@
                         </div>
                     </div><!-- End Team Member -->
 
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                         <div class="member">
                             <div class="pic"><img src="assets/images/jonne.jpg" class="img-fluid" alt="" width="70%">
                             </div>
                             <div class="member-info">
                                 <h4>GNAGLIGA Bakoulpama</h4>
+                                <span>Chef Division des Services et Logistiques à Unipod Togo</span>
+                                
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member">
+                            <div class="pic"><img src="assets/images/homme_profil.jpeg" class="img-fluid" alt="" width="70%">
+                            </div>
+                            <div class="member-info">
+                                <h4>Nom responsable</h4>
+                                <span>Chef Division des Services et Logistiques à Unipod Togo</span>
+                                
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member">
+                            <div class="pic"><img src="assets/images/homme_profil.jpeg" class="img-fluid" alt="" width="70%">
+                            </div>
+                            <div class="member-info">
+                                <h4>Mme Faouziat</h4>
                                 <span>Chef Division des Services et Logistiques à Unipod Togo</span>
                                 
                             </div>
@@ -183,6 +205,11 @@
                 </div>
 
             </div>
+
+            <div class="d-grid gap-6 col-2 mx-auto mt-5">
+                <a href="{{Route('equip')}}"><button class="btn btn-outline-primary" type="button"><i class="bi bi-box-arrow-up"></i>Voir l'équipe complète</button></a>
+               
+              </div>
 
         </section><!-- /Team Section -->
 
